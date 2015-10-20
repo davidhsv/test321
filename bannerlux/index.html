@@ -1,0 +1,32 @@
+<html>
+	
+	<head></head>
+
+
+	<!-- banner -->
+	<script src="webcam.min.js"></script>
+
+	<div id="my_camera" style="width:320px; height:240px;"></div>
+    <div id="my_result"></div>
+
+    <script language="JavaScript">
+	    Webcam.on( 'error', function(err) {
+	    	//TODO colocar imagem fixa
+	        alert("erro :(");
+	    });
+
+        Webcam.attach('#my_camera');
+
+        function take_snapshot() {
+            Webcam.snap( function(data_uri) {
+                document.getElementById('my_result').innerHTML = '<img src="'+data_uri+'"/>';
+                var img = new Image(); 
+                img.src = "data:image/jpeg;base64,"+data_uri;
+                ctx.drawImage(img, 0, 0);
+				var imgData = ctx.getImageData(x, y, 300, 300).data;
+            } );
+        }
+    </script>
+
+    <a href="javascript:void(take_snapshot())">Take Snapshot</a>
+</html>
