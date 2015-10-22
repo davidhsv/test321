@@ -1,0 +1,2942 @@
+
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Le styles -->
+		
+	<script>
+		var banner_veiculo = 'portalne10';		
+		var banner_canal = 0;
+		var banner_secao = 0;
+		var hitUnico = true;
+		var sinc = new Array();
+		var hitAd = new Array();
+		
+		document.write("<scr"+"ipt type=\'text/javascr"+"ipt\' src=\'http://adserver.ne10.uol.com.br/arquivos/scripts/portalne10.js?i="+Math.round(Math.random()*99999)+"\'></scr"+"ipt>");
+	</script>
+
+    <meta property="og:title" content="NE10 - Notícias de Pernambuco, Nordeste, Brasil e o mundo"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://www.ne10.com.br"/>
+    <meta property="og:image" content="http://ne10.uol.com.br/img/logo-facebook.jpg?nova"/>
+    <meta property="og:site_name" content="ne10.com.br"/>
+    <meta property="og:description" content="NE10: notícias e serviços em tempo real de Pernambuco, do Nordeste, do Brasil e do mundo"/>
+    <meta property="fb:page_id" content="145162535545745" />
+    <meta property="fb:app_id" content="147631022070864" />
+    <meta name="description" content="NE10: notícias e serviços em tempo real de Pernambuco, do Nordeste, do Brasil e do mundo"/>
+    <meta name="keywords" content="NE10, notícias, Pernambuco, Nordeste, Brasil, mundo, Copa 2014, eleições 2014, portal sjcc, jornal do commercio"/>
+    <meta name="application-name" content="ne10.uol.com.br"/>
+    <link rel="canonical" href="http://ne10.uol.com.br" />
+	
+    <meta http-equiv="refresh" content="300" />
+
+    <link href="http://ne10.uol.com.br/img/favicon.ico" rel="icon" type="image/x-icon" />
+    
+	<link rel="apple-touch-icon" href="http://ne10.uol.com.br/img/logo-iPad-57x57.png"/>
+	<link rel="apple-touch-icon" sizes="72x72" href="http://ne10.uol.com.br/img/logo-iPad-72x72.png"/>
+	<link rel="apple-touch-icon" sizes="114x114" href="http://ne10.uol.com.br/img/logo-iPad-144x144.png"/>
+    <title>NE10 - Notícias de Pernambuco, Nordeste, Brasil e o mundo</title>
+	<!-- vitrine lateral de ofertas -->
+	<link href='http://imagens2.ne10.uol.com.br/ne10/css/vitrine-ne10.css?1240758656' rel='stylesheet' type='text/css'>
+	
+	<link href="http://imagens2.ne10.uol.com.br/ne10/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="http://imagens2.ne10.uol.com.br/ne10/css/jquery-ui.css" rel="stylesheet" type="text/css">
+	<link href="http://imagens2.ne10.uol.com.br/ne10/css/jquery-ui.theme.min.css" rel="stylesheet" type="text/css">
+	<link href="http://imagens2.ne10.uol.com.br/ne10/css/ne10.css?700908498" rel="stylesheet" type="text/css">
+	<link href="http://imagens2.ne10.uol.com.br/ne10/css/grupo/ne10padroes.css?1474926933" rel="stylesheet" type="text/css" />
+	<link href="http://imagens2.ne10.uol.com.br/ne10/css/impressao.css" rel="stylesheet" type="text/css" media="print" />
+	
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<style id="antiClickjack">body{display:none !important;}</style>	
+		
+	<script type="text/javascript">
+		var BASE_URL 			= "http://ne10.uol.com.br";
+		var BASE 				= "http://ne10.uol.com.br";
+		var BASE_IMAGEM 		= "http://imagens2.ne10.uol.com.br/ne10";
+		var BASE_INTERATIVIDADE = "http://interatividades.ne10.uol.com.br/ne10";
+
+		if (self === top) {
+            var antiClickjack = document.getElementById("antiClickjack");
+            antiClickjack.parentNode.removeChild(antiClickjack);
+        } else {
+            top.location = self.location;
+        }
+
+		
+			var user_agent = navigator.userAgent.toLowerCase();
+		var urlAtual = location.href;
+		var rand = Math.floor((Math.random()*11)*(Math.random()*11));
+
+		function verificaUserAgent(){   
+			if(!urlAtual.match(/mobile_device/i)){
+				if (user_agent.match(/Android/i) || user_agent.match(/Windows Phone/i) || user_agent.match(/iPhone/i)){
+					// validando se a url será de interatividade
+					if(urlAtual.match('http://interatividades.ne10.uol.com.br/ne10/')){
+						urlAtual = urlAtual.replace("http://interatividades.ne10.uol.com.br/ne10/", "http://m.ne10.uol.com.br/");	
+						window.location = (urlAtual);
+						return false;						
+					}
+					urlAtual = urlAtual.replace("http://", "http://m.");	
+					window.location = (urlAtual);			
+				}
+			}
+		}
+		verificaUserAgent();
+		</script>
+	<script src="http://imagens2.ne10.uol.com.br/ne10/js/jquery.js" 	type="text/javascript"></script>
+	<script src="http://imagens2.ne10.uol.com.br/ne10/js/jquery-ui.js" type="text/javascript"></script>
+	<script src="http://imagens2.ne10.uol.com.br/ne10/js/geral.js" type="text/javascript"></script>
+	<script src="http://imagens2.ne10.uol.com.br/ne10/js/jquery.nicescroll.min.js" type="text/javascript"></script>
+	<script src="http://imagens2.ne10.uol.com.br/ne10/js/comentario/comentario.js?rand=923" type="text/javascript"></script>
+	<script src="http://imagens2.ne10.uol.com.br/ne10/js/geralBoxes.js?rand=700" type="text/javascript"></script>
+	    <script src="http://imagens2.ne10.uol.com.br/ne10/js/bootstrap.js"></script>
+	<script src="//www.google.com/jsapi" type="text/javascript"></script>
+		
+	<!-- ADSERVER UOL -->
+		<!-- DIM ADSERVER UOL -->
+
+	<script src="http://imagens2.ne10.uol.com.br/ne10/js/ne10.js?795964480" type="text/javascript"></script>
+	
+</head>	
+<body class="">
+	<div id="fb-root"></div>
+	
+	<script type="text/javascript">
+	<!--
+		(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));
+		// -->
+	</script>
+
+	<div id="uol"><script type="text/javascript" src="http://jsuol.com.br/barra/parceiro-1024.js?refbusca=ne10&full=true"></script></div><!-- barra uol -->
+
+		
+	<header>		
+		<!-- barra do NE10 -->
+		<div class="row barrane10">
+			<div class="container">
+				                <ul>
+
+                    <li><a href="http://www.jc.com.br">Jornal do Commercio</a></li>
+<li><a href="http://tvjornal.com.br">TV Jornal</a></li>
+<li><a href="http://www.radiojornal.com.br">Rádio Jornal</a></li>
+<li><a href="http://www.jcimagem.com.br">JC Imagem</a></li>
+<li><a href="http://grafica.jc.com.br">Gráfica JC</a></li>
+
+                </ul>
+			</div>	
+		</div>
+		<!-- barra do NE10 -->
+				
+		<!-- CABECALHO -->
+		<div id="cabecalho">
+			<div class="container">
+				<div class="row">
+					<!-- logo -->
+					<div class="span15">
+						<div class="logoNE10">
+														<a href="http://ne10.uol.com.br/"><img src="http://imagens2.ne10.uol.com.br/ne10/imagem/ne10_logo_rosa.png?ne103" alt="NE10" /></a>
+						</div>
+
+						<div class="fullbannerne10">		
+							<script language='Javascript' type='text/javascript'>
+    showBanner(1);
+</script>						</div>
+						
+						<div class="chamadaespecial">
+							<div>
+    <a href="http://vestibular.ne10.uol.com.br/">
+        <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/destaquetopo/b00d34098acbec9ff4246db64d02bf97.jpg" />
+    </a>
+</div>						</div>
+					</div>
+					<!-- fim logo -->
+				</div>
+				
+			<div class="row">
+    <!-- menu principal -->
+    <div class="span15">
+        <div id="menu">
+            <ul>
+                <li class="home"><a href="http://ne10.uol.com.br">Home</a></li>
+                <!-- Listar abaixo os grupos, canais, seções e destaques -->
+                                    <li class="padrao1">
+                        <a href="http://noticias.ne10.uol.com.br">
+                            Notícias                        </a>
+                    <div class="sub">
+                        <ul>
+                        <li><a href="http://ne10.uol.com.br/ultimas.php">Últimas notícias</a></li><li><a href="http://noticias.ne10.uol.com.br/grande-recife">Grande Recife</a></li><li><a href="http://www.blogdejamildo.com.br/">Blog de Jamildo</a></li><li><a href="http://noticias.ne10.uol.com.br/interior">Interior</a></li><li><a href="http://noticias.ne10.uol.com.br/brasil">Brasil</a></li><li><a href="http://noticias.ne10.uol.com.br/jc-transito">JC Trânsito</a></li><li><a href="http://blogs.ne10.uol.com.br/casasaudavel/">Casa Saudável</a></li><li><a href="http://noticias.ne10.uol.com.br/mundo">Mundo</a></li><li><a href="http://noticias.ne10.uol.com.br/cidade-viva">Cidade Viva</a></li><li><a href="http://blogs.ne10.uol.com.br/mundobit/">MundoBit</a></li><li><a href="http://noticias.ne10.uol.com.br/ciencia-e-vida">Ciência & vida</a></li><li><a href="http://noticias.ne10.uol.com.br/nordeste">Nordeste</a></li><li><a href="http://noticias.ne10.uol.com.br/combate-a-dengue">Combate à dengue</a></li><li><a href="http://noticias.ne10.uol.com.br/oportunidade">Oportunidade</a></li><li><a href="http://noticias.ne10.uol.com.br/noticias/coluna">Colunas</a></li><li><a href="http://noticias.ne10.uol.com.br/parceiros">Parceiros</a></li><li><a href="http://noticias.ne10.uol.com.br/educacao">Educação</a></li><li><a href="http://noticias.ne10.uol.com.br/politica">Política</a></li><li><a href="http://noticias.ne10.uol.com.br/economia">Economia</a></li><li><a href="http://noticias.ne10.uol.com.br/saude">Saúde</a></li><li><a href="http://noticias.ne10.uol.com.br/politica/eleicoes-2014">Eleições 2014</a></li><li><a href="http://noticias.ne10.uol.com.br/tecnologia">Tecnologia</a></li><li><a href="http://noticias.ne10.uol.com.br/energia">Energia</a></li><li><a href="http://noticias.ne10.uol.com.br/educacao/vestibular">Vestibular</a></li><li><a href="http://noticias.ne10.uol.com.br/noticias/especiais">Especiais</a></li><li><a href="http://noticias.ne10.uol.com.br/10horas">#10Horas</a></li>                        
+                        </ul>
+                        <div class="destaques">
+                                                <div class="destaque">
+                            <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/destaquegrupo/normal/83673efc97cc2f2b6d633ed1d3d9da7e.jpg" alt="" />
+                            <a href="http://blogs.ne10.uol.com.br/jamildo/" >
+                                <span>// Blog de Jamildo</span> <br />
+                                Política, economia e muita opinião com Jamildo Melo e equipe                            </a>
+                        </div>
+                                                <div class="destaque">
+                            <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/destaquegrupo/normal/eaa93e2ffdc7ec5fb59d861b16a881a9.jpg" alt="" />
+                            <a href="http://blogs.ne10.uol.com.br/mundobit/" >
+                                <span>// MundoBit</span> <br />
+                                O blog de tecnologia do NE10: tudo sobre o universo geek                            </a>
+                        </div>
+                                                <div class="destaque">
+                            <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/destaquegrupo/normal/2875afb6aa42b5f5c94e8821ad5d1154.jpg" alt="" />
+                            <a href="http://noticias.ne10.uol.com.br/nordeste" >
+                                <span>// Nordeste</span> <br />
+                                As principais notícias dos nove estados da região                            </a>
+                        </div>
+                                                </div>
+                    </div>
+                    </li>
+                                    <li class="padrao24">
+                        <a href="http://esportes.ne10.uol.com.br">
+                            Esportes                        </a>
+                    <div class="sub">
+                        <ul>
+                        <li><a href="http://esportes.ne10.uol.com.br/automobilismo">Automobilismo</a></li><li><a href="http://esportes.ne10.uol.com.br/pan-2015">Pan 2015</a></li><li><a href="http://www.blogdotorcedor.com.br">Blog do Torcedor</a></li><li><a href="http://esportes.ne10.uol.com.br/parceiros">Parceiros</a></li><li><a href="http://esportes.ne10.uol.com.br/especiais">Especiais</a></li><li><a href="http://esportes.ne10.uol.com.br/santa-cruz">Santa Cruz</a></li><li><a href="http://esportes.ne10.uol.com.br/futebol">Futebol</a></li><li><a href="http://esportes.ne10.uol.com.br/sport">Sport</a></li><li><a href="http://esportes.ne10.uol.com.br/nautico">Náutico</a></li><li><a href="http://esportes.ne10.uol.com.br/tabela/pernambucano-2015/">Tabela Virtual</a></li><li><a href="http://esportes.ne10.uol.com.br/olimpiada-2016">Olimpíada 2016</a></li><li><a href="http://esportes.ne10.uol.com.br/tenis">Tênis</a></li><li><a href="http://esportes.ne10.uol.com.br/outros-esportes">Outros esportes</a></li><li><a href="http://esportes.ne10.uol.com.br/volei">Vôlei</a></li>                        
+                        </ul>
+                        <div class="destaques">
+                                                <div class="destaque">
+                            <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/destaquegrupo/normal/07a928bcf93a311b10a93c878925bfc4.jpg" alt="" />
+                            <a href="http://blogs.ne10.uol.com.br/torcedor/" >
+                                <span>// Blog do Torcedor</span> <br />
+                                Futebol com opinião, números e muita interatividade                            </a>
+                        </div>
+                                                </div>
+                    </div>
+                    </li>
+                                    <li class="padrao6">
+                        <a href="http://entretenimento.ne10.uol.com.br">
+                            Entretenimento                        </a>
+                    <div class="sub">
+                        <ul>
+                        <li><a href="http://entretenimento.ne10.uol.com.br/celebridades">Celebridades</a></li><li><a href="http://entretenimento.ne10.uol.com.br/parceiros">Parceiros</a></li><li><a href="http://entretenimento.ne10.uol.com.br/cine-e-teatro">Cine & teatro</a></li><li><a href="http://entretenimento.ne10.uol.com.br/sao-joao">São João</a></li><li><a href="http://noticias.ne10.uol.com.br/entretenimento/coluna">Colunas</a></li><li><a href="http://entretenimento.ne10.uol.com.br/shows">Shows</a></li><li><a href="http://entretenimento.ne10.uol.com.br/comportamento">Comportamento</a></li><li><a href="http://www.social1.com.br">Social1</a></li><li><a href="http://entretenimento.ne10.uol.com.br/crianca">Criança</a></li><li><a href="http://entretenimento.ne10.uol.com.br/televisao">Televisão</a></li><li><a href="http://entretenimento.ne10.uol.com.br/decoracao">Decoração</a></li><li><a href="http://entretenimento.ne10.uol.com.br/turismo">Turismo</a></li><li><a href="http://noticias.ne10.uol.com.br/entretenimento/especiais">Especiais</a></li><li><a href="http://gastroonline.ne10.uol.com.br/roteiro/bares/">Bares</a></li><li><a href="http://entretenimento.ne10.uol.com.br/gastronomia">Gastronomia</a></li><li><a href="http://gastroonline.ne10.uol.com.br/roteiro/lanchonetes/">Lanchonetes</a></li><li><a href="http://blogs.ne10.uol.com.br/horadacozinha/">Hora da Cozinha</a></li><li><a href="http://gastroonline.ne10.uol.com.br/roteiro/restaurantes/">Restaurantes</a></li><li><a href="http://entretenimento.ne10.uol.com.br/literatura">Literatura</a></li><li><a href="http://interatividades.ne10.uol.com.br/ne10/cinema">Guia de cinema</a></li><li><a href="http://entretenimento.ne10.uol.com.br/moda-e-beleza">Moda & beleza</a></li><li><a href="http://interatividades.ne10.uol.com.br/ne10/teatro">Guia de peças</a></li><li><a href="http://entretenimento.ne10.uol.com.br/musica">Música</a></li><li><a href="http://interatividades.ne10.uol.com.br/ne10/showsefestas">Guia de shows</a></li>                        
+                        </ul>
+                        <div class="destaques">
+                                                <div class="destaque">
+                            <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/destaquegrupo/normal/0792c0a7e7a1ba3ec947607fe8bef9be.jpg" alt="" />
+                            <a href="http://blogs.ne10.uol.com.br/social1/" >
+                                <span>// Social1</span> <br />
+                                O tempo todo, em todo lugar: sociedade, comportamento e celebridades                            </a>
+                        </div>
+                                                <div class="destaque">
+                            <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/destaquegrupo/normal/51ac4d18da3ae014a09113677843c291.jpg" alt="" />
+                            <a href="http://interatividades.ne10.uol.com.br/ne10/cinema" >
+                                <span>// Cinema</span> <br />
+                                Acesse e escolha o seu filme preferido                            </a>
+                        </div>
+                                                <div class="destaque">
+                            <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/destaquegrupo/normal/92c505b87f0de6a9e0c46736bf5ba7b9.jpg" alt="" />
+                            <a href="http://interatividades.ne10.uol.com.br/ne10/showsefestas" >
+                                <span>// Shows</span> <br />
+                                Rock, pop, forró, axé... qual o seu ritmo?                            </a>
+                        </div>
+                                                </div>
+                    </div>
+                    </li>
+                                <!-- Listar  acima os grupos, canais, seções e destaques -->
+            </ul>
+            <!--<script>
+                // $(function () {
+                //     $('#menu ul li').each(
+                //     function () {
+                //         $(this).hover(function () {
+                //             $('.sub',$(this)).toggle();
+                //         });
+                //     });
+
+                //     $(window).unload(function () {
+                //         $('#menu .sub').hide();
+                //     });
+
+                // });
+            </script> -->
+        </div>
+	
+		<div class="atualizacaohome"><p class="atualizacao">RECIFE | Quinta - 22.10.15 - &Uacute;LTIMA ATUALIZA&Ccedil;&Atilde;O 10:25:12</p>
+</div>
+	
+		<div class="buscatopo">
+			<!-- busca -->
+			<!-- busca -->
+<form action="http://ne10.uol.com.br/busca">
+	<input type="text" id="inputBusca" name="q" class="sbusca" value="" />
+	<input type="image" src="http://imagens2.ne10.uol.com.br/ne10/imagem/botao_busca.png?469915179" />
+</form>
+<!-- fim busca -->			<!-- fim busca -->
+		</div>
+			
+    </div>
+    
+</div>			</div>
+		</div>
+		<!-- FIM CABECALHO -->
+	</header>
+	
+	<div class="container">
+		<div class="row">
+			<div class="span15">
+				<div>
+					<script language='Javascript' type='text/javascript'>
+    showBanner(49);
+</script>				</div>	
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">		
+		
+        <div class="row">
+            <div class="span12">
+               
+                <div class="row">
+                    <div class="span8">
+                            <div class="conteudolistagens">
+        <div class="noticiasQuentes modelo1">
+            <div class="manchete">
+                <h2>
+                    <a href="http://jconline.ne10.uol.com.br/canal/politica/nacional/noticia/2015/10/22/cpi-da-petrobras-aprova-relatorio-que-poupa-politicos-204712.php"  >
+                    CPI da Petrobras aprova relatório que poupa políticos                    </a>
+                </h2>
+            </div>
+            <div class="carrossel">
+                <div class="carroselMenu">
+                    <ul>
+                    <li>0</li>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+<li>5</li>
+<li>6</li>
+
+                    </ul>
+                </div>
+
+                <div class="slider">
+
+                                        <div class="item">
+                        <a href="http://jc.ne10.uol.com.br/blogs/rondajc/2015/10/21/julgamento-do-caso-serrambi-ainda-pode-ser-anulado-entenda/">
+                            <img
+                                src="http://imagens4.ne10.uol.com.br/ne10/imagem/noticiacarrossel/normal/add6e41e9e6e450e5b08df96b56c02b7.jpg"
+                                alt="Imagem das vítimas"
+                                title="Imagem das vítimas"
+                            />
+                        </a>
+                        <div class="chamadas">
+                            <div class="esquerda">
+                                <h4>
+                                    <span>
+                                        <a href="http://jc.ne10.uol.com.br/blogs/rondajc/2015/10/21/julgamento-do-caso-serrambi-ainda-pode-ser-anulado-entenda/">
+                                            caso serrambi                                        </a>
+                                    </span>
+                                    <a href="http://jc.ne10.uol.com.br/blogs/rondajc/2015/10/21/julgamento-do-caso-serrambi-ainda-pode-ser-anulado-entenda/">
+                                        <span class="linha1">JULGAMENTO AINDA PODE
+<br \></span><span class="linha2">SER ANULADO</span>                                    </a>
+                                </h4>
+                            </div>
+                            <div class="direita">
+                                <a href="http://jc.ne10.uol.com.br/blogs/rondajc/2015/10/21/julgamento-do-caso-serrambi-ainda-pode-ser-anulado-entenda/">
+                                    Familiares de uma das vítimas recorreu ao STJ para anular júri que inocentou kombeiros                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="item">
+                        <a href="http://noticias.ne10.uol.com.br/brasil/noticia/2015/10/22/bmw-e-condenada-a-pagar-r-200-mil-de-indenizacao-a-familia-do-cantor-joao-paulo-576252.php">
+                            <img
+                                src="http://imagens4.ne10.uol.com.br/ne10/imagem/noticiacarrossel/normal/a8359ae614ec4a770262fa804f678fe3.jpg"
+                                alt="Imagem de João Paulo ao lado de Daniel"
+                                title="Imagem de João Paulo ao lado de Daniel"
+                            />
+                        </a>
+                        <div class="chamadas">
+                            <div class="esquerda">
+                                <h4>
+                                    <span>
+                                        <a href="http://noticias.ne10.uol.com.br/brasil/noticia/2015/10/22/bmw-e-condenada-a-pagar-r-200-mil-de-indenizacao-a-familia-do-cantor-joao-paulo-576252.php">
+                                            ACIDENTE                                        </a>
+                                    </span>
+                                    <a href="http://noticias.ne10.uol.com.br/brasil/noticia/2015/10/22/bmw-e-condenada-a-pagar-r-200-mil-de-indenizacao-a-familia-do-cantor-joao-paulo-576252.php">
+                                        <span class="linha1">BMW É CONDENADA
+<br \></span><span class="linha2">A INDENIZAR</span>                                    </a>
+                                </h4>
+                            </div>
+                            <div class="direita">
+                                <a href="http://noticias.ne10.uol.com.br/brasil/noticia/2015/10/22/bmw-e-condenada-a-pagar-r-200-mil-de-indenizacao-a-familia-do-cantor-joao-paulo-576252.php">
+                                    Montadora terá que pagar R$ 200 mil de indenização à família do cantor João Paulo                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="item">
+                        <a href="http://noticias.ne10.uol.com.br/grande-recife/noticia/2015/10/22/pf-apreende-r-85-milhoes-em-empresa-e-prende-gerente-no-recife-576241.php">
+                            <img
+                                src="http://imagens4.ne10.uol.com.br/ne10/imagem/noticiacarrossel/normal/2649ef85d168a15fd7a15221e82a9a79.jpg"
+                                alt="Imagem de dinheiro apreendido"
+                                title="Imagem de dinheiro apreendido"
+                            />
+                        </a>
+                        <div class="chamadas">
+                            <div class="esquerda">
+                                <h4>
+                                    <span>
+                                        <a href="http://noticias.ne10.uol.com.br/grande-recife/noticia/2015/10/22/pf-apreende-r-85-milhoes-em-empresa-e-prende-gerente-no-recife-576241.php">
+                                            RECIFE                                        </a>
+                                    </span>
+                                    <a href="http://noticias.ne10.uol.com.br/grande-recife/noticia/2015/10/22/pf-apreende-r-85-milhoes-em-empresa-e-prende-gerente-no-recife-576241.php">
+                                        <span class="linha1">PF apreende R$ 85 mi
+<br \></span><span class="linha2">em empresa</span>                                    </a>
+                                </h4>
+                            </div>
+                            <div class="direita">
+                                <a href="http://noticias.ne10.uol.com.br/grande-recife/noticia/2015/10/22/pf-apreende-r-85-milhoes-em-empresa-e-prende-gerente-no-recife-576241.php">
+                                    Gerente comercial é preso por suspeita de vender ilegalmente moedas estrangeiras                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="item">
+                        <a href="http://noticias.ne10.uol.com.br/10horas/noticia/2015/10/21/saude-publica-no-recife-causa-boas-e-mas-impressoes-em-dia-de-esperas-576162.php">
+                            <img
+                                src="http://imagens4.ne10.uol.com.br/ne10/imagem/noticiacarrossel/normal/a1ef5d7370fa1dea8be6794e9d56be8e.jpg"
+                                alt="Imagem de paciente deitado em cadeiras no HR. Foto: Marília Banholzer/NE10"
+                                title="Imagem de paciente deitado em cadeiras no HR. Foto: Marília Banholzer/NE10"
+                            />
+                        </a>
+                        <div class="chamadas">
+                            <div class="esquerda">
+                                <h4>
+                                    <span>
+                                        <a href="http://noticias.ne10.uol.com.br/10horas/noticia/2015/10/21/saude-publica-no-recife-causa-boas-e-mas-impressoes-em-dia-de-esperas-576162.php">
+                                            #10HORAS                                        </a>
+                                    </span>
+                                    <a href="http://noticias.ne10.uol.com.br/10horas/noticia/2015/10/21/saude-publica-no-recife-causa-boas-e-mas-impressoes-em-dia-de-esperas-576162.php">
+                                        <span class="linha1">Hospitais com 
+<br \></span><span class="linha2">longas esperas</span>                                    </a>
+                                </h4>
+                            </div>
+                            <div class="direita">
+                                <a href="http://noticias.ne10.uol.com.br/10horas/noticia/2015/10/21/saude-publica-no-recife-causa-boas-e-mas-impressoes-em-dia-de-esperas-576162.php">
+                                    Saúde pública no Recife causa boas e más impressões em dia de flagrantes e esperas                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="item">
+                        <a href="http://noticias.ne10.uol.com.br/ciencia-e-vida/noticia/2015/10/22/cachorro-foi-domesticado-primeiro-na-asia-diz-estudo-576230.php">
+                            <img
+                                src="http://imagens4.ne10.uol.com.br/ne10/imagem/noticiacarrossel/normal/15617b91b0a10efeeeaa217c1c14b422.jpg"
+                                alt="Imagem de cães"
+                                title="Imagem de cães"
+                            />
+                        </a>
+                        <div class="chamadas">
+                            <div class="esquerda">
+                                <h4>
+                                    <span>
+                                        <a href="http://noticias.ne10.uol.com.br/ciencia-e-vida/noticia/2015/10/22/cachorro-foi-domesticado-primeiro-na-asia-diz-estudo-576230.php">
+                                            ciência                                        </a>
+                                    </span>
+                                    <a href="http://noticias.ne10.uol.com.br/ciencia-e-vida/noticia/2015/10/22/cachorro-foi-domesticado-primeiro-na-asia-diz-estudo-576230.php">
+                                        <span class="linha1">DOMESTICAÇÃO COMEÇOU
+<br \></span><span class="linha2">NA ÁSIA</span>                                    </a>
+                                </h4>
+                            </div>
+                            <div class="direita">
+                                <a href="http://noticias.ne10.uol.com.br/ciencia-e-vida/noticia/2015/10/22/cachorro-foi-domesticado-primeiro-na-asia-diz-estudo-576230.php">
+                                    Nepaleses e mongóis foram provavelmente os primeiros a domesticar o cachorro                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="item">
+                        <a href="http://blogs.ne10.uol.com.br/mundobit/2015/10/21/as-tecnologias-que-mudarao-nosso-cotidiano-em-30-anos/">
+                            <img
+                                src="http://imagens4.ne10.uol.com.br/ne10/imagem/noticiacarrossel/normal/06b376123b00e58ce2ad0873928d63d3.jpg"
+                                alt="Imagem de computador quântico. Foto: divulgação"
+                                title="Imagem de computador quântico. Foto: divulgação"
+                            />
+                        </a>
+                        <div class="chamadas">
+                            <div class="esquerda">
+                                <h4>
+                                    <span>
+                                        <a href="http://blogs.ne10.uol.com.br/mundobit/2015/10/21/as-tecnologias-que-mudarao-nosso-cotidiano-em-30-anos/">
+                                            PREVISÕES                                        </a>
+                                    </span>
+                                    <a href="http://blogs.ne10.uol.com.br/mundobit/2015/10/21/as-tecnologias-que-mudarao-nosso-cotidiano-em-30-anos/">
+                                        <span class="linha1">A tecnologia de um
+<br \></span><span class="linha2">novo futuro</span>                                    </a>
+                                </h4>
+                            </div>
+                            <div class="direita">
+                                <a href="http://blogs.ne10.uol.com.br/mundobit/2015/10/21/as-tecnologias-que-mudarao-nosso-cotidiano-em-30-anos/">
+                                    Blog MundoBit imagina uma nova viagem no Delorean de Marty McFly para mais 30 anos                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="item">
+                        <a href="http://vestibular.ne10.uol.com.br/2015/10/22/sobre-como-o-fera-a-familia-e-os-professores-devem-lidar-com-o-enem/">
+                            <img
+                                src="http://imagens4.ne10.uol.com.br/ne10/imagem/noticiacarrossel/normal/b139c369899f9be6dc071aae89188c12.jpg"
+                                alt="Imagem de jovem nervosa com símbolo de proibido. Foto e ilustração: Isabelle Figueirôa/ NE10"
+                                title="Imagem de jovem nervosa com símbolo de proibido. Foto e ilustração: Isabelle Figueirôa/ NE10"
+                            />
+                        </a>
+                        <div class="chamadas">
+                            <div class="esquerda">
+                                <h4>
+                                    <span>
+                                        <a href="http://vestibular.ne10.uol.com.br/2015/10/22/sobre-como-o-fera-a-familia-e-os-professores-devem-lidar-com-o-enem/">
+                                            VESTIBULAR                                        </a>
+                                    </span>
+                                    <a href="http://vestibular.ne10.uol.com.br/2015/10/22/sobre-como-o-fera-a-familia-e-os-professores-devem-lidar-com-o-enem/">
+                                        <span class="linha1">Sobre como lidar 
+<br \></span><span class="linha2">com o Enem</span>                                    </a>
+                                </h4>
+                            </div>
+                            <div class="direita">
+                                <a href="http://vestibular.ne10.uol.com.br/2015/10/22/sobre-como-o-fera-a-familia-e-os-professores-devem-lidar-com-o-enem/">
+                                    Psicóloga orienta feras, familiares e professores a como se comportar às vésperas do exame                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+            <div class="thumbs">
+                        <div class="thumb">
+                    <a href="http://noticias.ne10.uol.com.br/interior/policia/noticia/2015/10/22/homem-morre-apos-perder-controle-de-carro-e-invadir-contramao-na-br-104-576240.php"  >
+                        <img
+                            src="http://imagens4.ne10.uol.com.br/ne10/imagem/chamada/normal/3d58b10b2504d791234a2569eb320783.jpg"
+                            alt="Imagem do carro. Foto: Reprodução/TV Jornal"
+                            title="Imagem do carro. Foto: Reprodução/TV Jornal"
+                        />
+                    </a>
+                    <h4 class="padrao1">
+                        <span class="chapeu">
+                            <a href="http://noticias.ne10.uol.com.br/interior/policia/noticia/2015/10/22/homem-morre-apos-perder-controle-de-carro-e-invadir-contramao-na-br-104-576240.php" >BR-104</a>
+                        </span>
+                        <a href="http://noticias.ne10.uol.com.br/interior/policia/noticia/2015/10/22/homem-morre-apos-perder-controle-de-carro-e-invadir-contramao-na-br-104-576240.php">Morte na contramão de motorista</a>
+                    </h4>
+                </div>
+                        <div class="thumb">
+                    <a href="http://jconline.ne10.uol.com.br/canal/economia/pernambuco/noticia/2015/10/22/estaleiro-atlantico-sul-em-suape-demite-mais-200-funcionarios--204690.php"  >
+                        <img
+                            src="http://imagens4.ne10.uol.com.br/ne10/imagem/chamada/normal/345ead42fde959cddafa07aeb626ed05.jpg"
+                            alt="Imagem do estaleiro. Foto: JC Imagem"
+                            title="Imagem do estaleiro. Foto: JC Imagem"
+                        />
+                    </a>
+                    <h4 class="padrao1">
+                        <span class="chapeu">
+                            <a href="http://jconline.ne10.uol.com.br/canal/economia/pernambuco/noticia/2015/10/22/estaleiro-atlantico-sul-em-suape-demite-mais-200-funcionarios--204690.php" >ATLÂNTICO SUL</a>
+                        </span>
+                        <a href="http://jconline.ne10.uol.com.br/canal/economia/pernambuco/noticia/2015/10/22/estaleiro-atlantico-sul-em-suape-demite-mais-200-funcionarios--204690.php">Estaleiro em Suape demite mais 200</a>
+                    </h4>
+                </div>
+                        <div class="thumb">
+                    <a href="http://noticias.ne10.uol.com.br/mundo/noticia/2015/10/22/homem-entra-em-escola-com-uma-espada-mata-um-e-deixa-feridos-na-suecia-576244.php"  >
+                        <img
+                            src="http://imagens4.ne10.uol.com.br/ne10/imagem/chamada/normal/37d949eabfe3112ab0060a263f944871.jpg"
+                            alt="Imagem de movimentação diante da escola. Foto: AF|P"
+                            title="Imagem de movimentação diante da escola. Foto: AF|P"
+                        />
+                    </a>
+                    <h4 class="padrao1">
+                        <span class="chapeu">
+                            <a href="http://noticias.ne10.uol.com.br/mundo/noticia/2015/10/22/homem-entra-em-escola-com-uma-espada-mata-um-e-deixa-feridos-na-suecia-576244.php" >SUÉCIA</a>
+                        </span>
+                        <a href="http://noticias.ne10.uol.com.br/mundo/noticia/2015/10/22/homem-entra-em-escola-com-uma-espada-mata-um-e-deixa-feridos-na-suecia-576244.php">Com espada, homem mata e fere alunos</a>
+                    </h4>
+                </div>
+                    </div>
+    </div>
+</div>
+					<!-- ultimas noticias home -->
+						    <!-- últimas notícias -->
+    <div class="ultimasNoticiasHome vermelho">
+        <a class="titulo" href="http://ne10.uol.com.br/ultimas.php">
+			<h3>&Uacute;ltimas <span>Not&iacute;cias</span></h3>
+		</a>
+        <ul>
+                                                <li><a href="http://blogs.ne10.uol.com.br/torcedor/2015/10/22/jogadores-do-sport-avaliam-um-mes-da-era-falcao/">Jogadores do Sport ‘avaliam’ um mês da Era Falcão</a></li>	
+                		
+                                                    <li><a href="http://radiojornal.ne10.uol.com.br/noticia/2015/10/22/comecam-os-preparativos-para-o-natal-luz-de-garanhuns-42741">Começam os preparativos para o Natal Luz de Garanhuns</a></li>	
+                		
+                                                    <li><a href='http://noticias.ne10.uol.com.br/grande-recife/noticia/2015/10/22/incendio-atinge-apartamento-no-espinheiro-576286.php' >Incêndio atinge apartamento no Espinheiro</a></li>
+                		
+                                                    <li><a href="http://blogs.ne10.uol.com.br/social1/2015/10/22/dia-do-enologo-veja-bons-vinhos-pelo-recife/">Dia do Enólogo: veja bons vinhos pelo Recife</a></li>	
+                		
+                                                    <li><a href='http://noticias.ne10.uol.com.br/ciencia-e-vida/noticia/2015/10/22/brasil-deve-acentuar-luta-contra-desmatamento-para-cumprir-compromissos-climaticos-576285.php' >Brasil deve acentuar luta contra desmatamento para cumprir compromissos climáticos</a></li>
+                		
+                                                    <li><a href='http://noticias.ne10.uol.com.br/interior/policia/noticia/2015/10/22/ex-presidiario-e-assassinado-a-tiros-no-bairro-santa-rosa-em-caruaru-576281.php' >Ex-presidiário é assassinado a tiros no bairro Santa Rosa em Caruaru</a></li>
+                		
+                    </ul>
+    <a href="http://ne10.uol.com.br/ultimas.php" class="mais">Mais not&iacute;cias</a>
+</div>                        
+					<!-- fim ultimas noticias home -->
+                    </div>
+                    <div class="span4">
+                        <div class="colunaservicos">
+                        <!-- Coluna de serviços de canal e sessao -->
+						
+                            <!-- banner-quadrado -->
+                            <div class="banner-quadrado">
+                                <p>Publicidade</p>
+                                <script language='Javascript' type='text/javascript'>
+    showBanner(18);
+</script>                            </div>
+                            <!-- /banner-quadrado -->
+
+
+						<!--include box mais lidas-->
+							<div class="topMais">
+    <ul class="menuTopMais">
+        <li class="atual"><a href="#">+acessadas</a></li>
+        <li><a href="#">+comentadas</a></li>
+        <li><a href="#">+tags</a></li>
+    </ul>
+    <div class="topLista acessadas atual">
+                    <ul>
+                                    <li><span>1</span><a href="http://noticias.ne10.uol.com.br/grande-recife/noticia/2015/10/22/pf-apreende-r-85-milhoes-em-empresa-e-prende-gerente-no-recife-576241.php">PF apreende R$ 85 milhões em empresa e prende gerente no Recife</a></li>
+                                    <li><span>2</span><a href="http://noticias.ne10.uol.com.br/brasil/noticia/2015/10/21/um-apostador-acerta-as-seis-dezenas-da-mega-sena-576211.php">Um apostador acerta as seis dezenas da Mega-Sena</a></li>
+                                    <li><span>3</span><a href="http://noticias.ne10.uol.com.br/interior/policia/noticia/2015/10/22/homem-morre-apos-perder-controle-de-carro-e-invadir-contramao-na-br-104-576240.php">Homem morre após perder controle de carro e invadir contramão na BR-104</a></li>
+                                    <li><span>4</span><a href="http://noticias.ne10.uol.com.br/10horas/noticia/2015/10/21/saude-publica-no-recife-causa-boas-e-mas-impressoes-em-dia-de-esperas-576162.php">Saúde pública no Recife causa boas e más impressões em dia de esperas</a></li>
+                                    <li><span>5</span><a href="http://noticias.ne10.uol.com.br/jc-transito/noticia/2015/10/21/moradores-de-comunidades-na-zona-oeste-bloqueiam-avenida-caxanga-em-protesto-576167.php">Moradores de comunidades na Zona Oeste bloqueiam Avenida Caxangá em protesto</a></li>
+                            </ul>
+            </div>
+    <div class="topLista comentadas">
+            </div>
+    <div class="topLista tags">
+                    <ul>
+                
+                    <li> 
+                        <span class="tam1"> 
+                            <a href="http://ne10.uol.com.br/tag/cia" title="1 notícia(s) com esta tag">
+                                CIA                            </a>
+                        </span>
+                    </li>
+                
+                    <li> 
+                        <span class="tam1"> 
+                            <a href="http://ne10.uol.com.br/tag/policia-federal" title="1 notícia(s) com esta tag">
+                                polícia federal                            </a>
+                        </span>
+                    </li>
+                
+                    <li> 
+                        <span class="tam1"> 
+                            <a href="http://ne10.uol.com.br/tag/eduardo-cunha" title="2 notícia(s) com esta tag">
+                                eduardo cunha                            </a>
+                        </span>
+                    </li>
+                
+                    <li> 
+                        <span class="tam1"> 
+                            <a href="http://ne10.uol.com.br/tag/zimbabue" title="1 notícia(s) com esta tag">
+                                zimbábue                            </a>
+                        </span>
+                    </li>
+                
+                    <li> 
+                        <span class="tam1"> 
+                            <a href="http://ne10.uol.com.br/tag/filipinas" title="1 notícia(s) com esta tag">
+                                filipinas                            </a>
+                        </span>
+                    </li>
+                
+                    <li> 
+                        <span class="tam1"> 
+                            <a href="http://ne10.uol.com.br/tag/tv-jornal" title="1 notícia(s) com esta tag">
+                                tv jornal                            </a>
+                        </span>
+                    </li>
+                
+                    <li> 
+                        <span class="tam1"> 
+                            <a href="http://ne10.uol.com.br/tag/demissoes" title="1 notícia(s) com esta tag">
+                                demissões                            </a>
+                        </span>
+                    </li>
+                
+                    <li> 
+                        <span class="tam1"> 
+                            <a href="http://ne10.uol.com.br/tag/policia" title="7 notícia(s) com esta tag">
+                                polícia                            </a>
+                        </span>
+                    </li>
+                
+                    <li> 
+                        <span class="tam1"> 
+                            <a href="http://ne10.uol.com.br/tag/grande-recife" title="13 notícia(s) com esta tag">
+                                grande recife                            </a>
+                        </span>
+                    </li>
+                
+                    <li> 
+                        <span class="tam1"> 
+                            <a href="http://ne10.uol.com.br/tag/caruaru" title="4 notícia(s) com esta tag">
+                                caruaru                            </a>
+                        </span>
+                    </li>
+                
+                    <li> 
+                        <span class="tam1"> 
+                            <a href="http://ne10.uol.com.br/tag/palestina" title="2 notícia(s) com esta tag">
+                                palestina                            </a>
+                        </span>
+                    </li>
+                
+                    <li> 
+                        <span class="tam1"> 
+                            <a href="http://ne10.uol.com.br/tag/cpi-da-petrobras" title="2 notícia(s) com esta tag">
+                                cpi da petrobras                            </a>
+                        </span>
+                    </li>
+                
+                    <li> 
+                        <span class="tam1"> 
+                            <a href="http://ne10.uol.com.br/tag/mexico" title="1 notícia(s) com esta tag">
+                                México                            </a>
+                        </span>
+                    </li>
+                
+                    <li> 
+                        <span class="tam1"> 
+                            <a href="http://ne10.uol.com.br/tag/cine-e-teatro" title="2 notícia(s) com esta tag">
+                                cine & teatro                            </a>
+                        </span>
+                    </li>
+                
+                    <li> 
+                        <span class="tam1"> 
+                            <a href="http://ne10.uol.com.br/tag/outros-esportes" title="1 notícia(s) com esta tag">
+                                Outros esportes                            </a>
+                        </span>
+                    </li>
+                
+                    <li> 
+                        <span class="tam1"> 
+                            <a href="http://ne10.uol.com.br/tag/ajuda" title="1 notícia(s) com esta tag">
+                                ajuda                            </a>
+                        </span>
+                    </li>
+                
+                    <li> 
+                        <span class="tam1"> 
+                            <a href="http://ne10.uol.com.br/tag/interior" title="9 notícia(s) com esta tag">
+                                interior                            </a>
+                        </span>
+                    </li>
+                
+                    <li> 
+                        <span class="tam1"> 
+                            <a href="http://ne10.uol.com.br/tag/portugal" title="1 notícia(s) com esta tag">
+                                portugal                            </a>
+                        </span>
+                    </li>
+                
+                    <li> 
+                        <span class="tam1"> 
+                            <a href="http://ne10.uol.com.br/tag/jc-transito" title="5 notícia(s) com esta tag">
+                                jc trânsito                            </a>
+                        </span>
+                    </li>
+                
+                    <li> 
+                        <span class="tam1"> 
+                            <a href="http://ne10.uol.com.br/tag/sao-lourenco-da-mata" title="1 notícia(s) com esta tag">
+                                são lourenço da mata                            </a>
+                        </span>
+                    </li>
+                            </ul>
+            </div>
+</div>                        <!-- fim Coluna de serviços de canal e saesao -->						
+                        </div>
+                    </div>
+                    
+                    <div class="span12">
+					<!--Include da vitrine fiat-->
+                                <div class="posicao">
+                <div id="vitrine-duas-oferta" class="novaVitrineFiat"> 
+                    <div class="logoFiat">
+                        <a href="http://adserver.ne10.uol.com.br/countHit.php?ad=3916&ac=2&lk=http://rdm.reamp.com.br/clk?znid=40020&dvrtsrd=1257&cid=1039587" target="_blank">
+                            <p><img src="http://imagens3.ne10.uol.com.br/ne10/imagem/logoFiat.jpg"></p>
+                            <p><img src="http://imagens3.ne10.uol.com.br/ne10/imagem/botaoAcesse.jpg"></p>
+                        </a>
+                    </div>
+
+                    <div class="vitrineLeft">
+                        <a href="http://adserver.ne10.uol.com.br/countHit.php?ad=3912&ac=2&lk=http://rdm.reamp.com.br/clk?znid=3050&cid=1002685&r=http%3A%2F%2Fofertas.fiat.com.br%2F%3Fs_cid%3DVarejoRecife2014_ne10_home_vitrine1x1_oferta1_CPC%26utm_source%3Dne10_home_vitrine1x1_oferta1_VarejoRecife2014%26utm_medium%3DMG%26utm_term%3Dne10%26utm_content%3Doferta1%26utm_campaign%3DVarejoRecife2014%0D%0A" target="_blank">
+                            <div class="vitrineLeftTitulo">
+                                <h2>Novo Palio</h2>
+                            </div>
+                            <div class="vitrineLeftFoto">
+                                <img src="http://www.fiat.com.br/content/dam/fiat-brasil/desktop/produtos/modelos/196/versoes/19627Z0/555/178.png" alt="Novo Palio">
+                            </div>
+                            <div class="vitrineLeftInfos">
+                                <div class="vitrineLeftEsp">
+                                    <ul>
+                                                                                    <li>AR-CONDICIONADO</li>
+                                                                                    <li>DIREÇÃO HIDRÁULICA</li>
+                                                                                    <li>TRAVAS ELÉTRICAS</li>
+                                                                                    <li>VIDROS DIANTEIROS ELÉTRICOS</li>
+                                                                            </ul>
+																		
+									<p class="pLarge"><strong>Por:</strong> R$ 34.990</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="vitrineLeft last" style="border-right: 0px;">
+                        <a href="http://adserver.ne10.uol.com.br/countHit.php?ad=3913&ac=2&lk=http://rdm.reamp.com.br/clk?znid=3051&cid=1002686&r=http%3A%2F%2Fofertas.fiat.com.br%2F%3Fs_cid%3DVarejoRecife2014_ne10_home_vitrine1x1_oferta2_CPC%26utm_source%3Dne10_home_vitrine1x1_oferta2_VarejoRecife2014%26utm_medium%3DMG%26utm_term%3Dne10%26utm_content%3Doferta2%26utm_campaign%3DVarejoRecife2014%0D%0A" target="_blank">
+                            <div class="vitrineLeftTitulo">
+                                <h2>Siena</h2>
+                            </div>
+                            <div class="vitrineLeftFoto">
+                                <img src="http://www.fiat.com.br/content/dam/fiat-brasil/desktop/produtos/modelos/372/versoes/37211Z1/555/178.png" alt="Siena">
+                            </div>
+                            <div class="vitrineLeftInfos">
+                                <div class="vitrineLeftEsp">
+                                    <ul>
+                                                                                    <li>AR-CONDICIONADO</li>
+                                                                                    <li>DIREÇÃO HIDRÁULICA</li>
+                                                                                    <li>TRAVAS ELÉTRICAS</li>
+                                                                                    <li>VIDROS DIANTEIROS ELÉTRICOS</li>
+                                                                            </ul>
+																		
+									<p class="pLarge"><strong>Por:</strong> R$ 35.990</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+					<p class="descricao-fiat">* Ofertas válidas para a cidade de Recife e região. Confira a vigência da oferta no site</p>
+                </div>
+            </div>
+                                
+					
+                    <!--Include containers frios ativos-->                    
+                    <div class="posicao">
+        <!-- noticia fria cotidiano -->
+    <div class="modelonoticia cotidiano" data-ordem="0" data-id="-1">
+
+        <div class="row">
+            <div class="span12 topo">
+                <h2 ><strong>#NE10VESTIBULAR</strong></h2>
+
+                <div class="oferecimento">			
+                                            <script language='Javascript' type='text/javascript'>
+    showBanner(50);
+</script>                                    </div>
+
+                <ul class="links">
+                    
+                                    </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="chamadas">
+                <div class="span3 chamada">
+                    <img  modulo="cotidiano"  src="http://imagens2.ne10.uol.com.br/ne10/imagem/home-portal/normal/c743d3e48e8017d3524ff6d59e2d721e.jpg?" alt="Imagem de pessoa digitando. Foto: divulgação" title="Imagem de pessoa digitando. Foto: divulgação" width="220" height="129">
+                    <span class="chapeu padrao1">
+                        <a href="http://vestibular.ne10.uol.com.br/2015/10/22/mercadante-mais-de-64-milhoes-de-alunos-ja-confirmaram-participacao-no-enem/"   >BRASIL</a>
+                    </span>
+                    <a href="http://vestibular.ne10.uol.com.br/2015/10/22/mercadante-mais-de-64-milhoes-de-alunos-ja-confirmaram-participacao-no-enem/"  >Mais de 6,4 milhões acessaram cartão de confirmação</a>
+                </div>
+
+                <div class="span3 chamada">
+                    <img  modulo="cotidiano" src="http://imagens2.ne10.uol.com.br/ne10/imagem/home-portal/normal/6cec2dcda6bb163fdd814c7ad5c1599f.jpg?" alt="Imagem de fisioterapeuta fazendo massagem" title="Imagem de fisioterapeuta fazendo massagem" width="220" height="129">
+                    <span class="chapeu padrao1">
+                        <a href="http://vestibular.ne10.uol.com.br/2015/10/20/massagem-relaxante-para-aliviar-a-tensao-pre-enem/"   >EQUILÍBRIO</a>
+                    </span>
+                    <a href="http://vestibular.ne10.uol.com.br/2015/10/20/massagem-relaxante-para-aliviar-a-tensao-pre-enem/"  >Massagem relaxante para aliviar a tensão pré-Enem</a>
+                </div>
+
+                <div class="span3 chamada">
+                    <img  modulo="cotidiano" src="http://imagens2.ne10.uol.com.br/ne10/imagem/home-portal/normal/1213d4d63b0cc006d8c4611de8ef4629.jpg?" alt="Imagem de cartão de confirmação de inscrição. Foto: divulgação" title="Imagem de cartão de confirmação de inscrição. Foto: divulgação" width="220" height="129">
+                    <span class="chapeu padrao1">
+                        <a href="http://vestibular.ne10.uol.com.br/2015/10/21/feras-devem-estudar-o-percurso-do-local-de-prova-do-enem/"  >COM ANTECEDÊNCIA</a>
+                    </span>
+                    <a href="http://vestibular.ne10.uol.com.br/2015/10/21/feras-devem-estudar-o-percurso-do-local-de-prova-do-enem/"  >Feras devem estudar o percurso do local de prova do Enem</a>
+                </div>
+
+                <div class="span3 chamada">
+                    <img  modulo="cotidiano" src="http://imagens2.ne10.uol.com.br/ne10/imagem/home-portal/normal/4f26d077ec9f54572405588ec7c20861.jpg?" alt="Imagem de pessoa fazendo prova. Foto: divulgação" title="Imagem de pessoa fazendo prova. Foto: divulgação" width="220" height="129">
+                    <span class="chapeu padrao1">
+                        <a href="http://vestibular.ne10.uol.com.br/2015/10/22/nenhum-local-de-prova-do-enem-foi-trocado-em-pernambuco/"  >PERNAMBUCO</a>
+                    </span>
+                    <a href="http://vestibular.ne10.uol.com.br/2015/10/22/nenhum-local-de-prova-do-enem-foi-trocado-em-pernambuco/"  >Nenhum local de prova do Enem foi trocado no Estado</a>
+                </div>
+
+            </div><!-- fim div chamadas -->
+        </div><!-- fim div row -->
+    </div>
+        
+</div><div class="posicao">
+    
+    <div class="modelonoticia blogs">
+    	<a href="#" class="seta anterior">Anterior</a>
+        <a href="#" class="seta proxima">Próximo</a>
+        
+		<div class="row">
+            <div class="span12 topo">
+                <h2> Blogs </h2>
+            </div>
+        </div>
+		
+        <div class="linha decimal">
+            <div class="span12 colunas blogslider">
+                <div class="linha">
+                     
+                        <div class="tres colunas">
+                            <a href="http://blogs.ne10.uol.com.br/mundobit/?boxne10" onClick="ga('send', 'event', 'Modulos', 'blog', 'foto');"><img src="http://imagens2.ne10.uol.com.br/ne10/imagem/fef5a6590eed52db025f032bffaa2e15.jpg" width="54" height="54"></a>
+                            <p class="descricao">
+                                <strong><a href="http://blogs.ne10.uol.com.br/mundobit/?boxne10" onClick="ga('send', 'event', 'Modulos', 'blog', 'titulo');">MUNDO BIT</a></strong><span>:</span>
+                                Por Paulo Floro                            </p>
+                            <h3><a href="http://blogs.ne10.uol.com.br/mundobit/2015/10/21/de-volta-para-o-futuro-os-memes-da-chegada-de-marty-mcfly-ao-ano-de-2015/?boxne10" onClick="ga('send', 'event', 'Modulos', 'blog', 'chamada');">Memes com Marty McFly</a></h3>
+                        </div>
+                     
+                        <div class="tres colunas">
+                            <a href="http://blogs.ne10.uol.com.br/casasaudavel/?boxne10" onClick="ga('send', 'event', 'Modulos', 'blog', 'foto');"><img src="http://imagens2.ne10.uol.com.br/ne10/imagem/a00a1cccd6557b2dbb47566d08ef57db.jpg" width="54" height="54"></a>
+                            <p class="descricao">
+                                <strong><a href="http://blogs.ne10.uol.com.br/casasaudavel/?boxne10" onClick="ga('send', 'event', 'Modulos', 'blog', 'titulo');">Casa Saudável</a></strong><span>:</span>
+                                Por Cinthya Leite                            </p>
+                            <h3><a href="http://blogs.ne10.uol.com.br/casasaudavel/2015/10/21/dia-de-atencao-a-gagueira-unicap-oferece-atendimento-gratuito-nesta-quinta-feira/?boxne10" onClick="ga('send', 'event', 'Modulos', 'blog', 'chamada');">Dia de Atenção à Gagueira</a></h3>
+                        </div>
+                     
+                        <div class="tres colunas">
+                            <a href="http://blogs.ne10.uol.com.br/social1/?boxne10" onClick="ga('send', 'event', 'Modulos', 'blog', 'foto');"><img src="http://imagens2.ne10.uol.com.br/ne10/imagem/8f776e1d6716d18af257078d456d9b86.jpg" width="54" height="54"></a>
+                            <p class="descricao">
+                                <strong><a href="http://blogs.ne10.uol.com.br/social1/?boxne10" onClick="ga('send', 'event', 'Modulos', 'blog', 'titulo');">SOCIAL1</a></strong><span>:</span>
+                                Por Mirella Martins                            </p>
+                            <h3><a href="http://blogs.ne10.uol.com.br/social1/2015/10/21/chris-rock-vai-apresentar-cerimonia-do-oscar-2016/?boxne10" onClick="ga('send', 'event', 'Modulos', 'blog', 'chamada');">Chris Rock no Oscar 2016</a></h3>
+                        </div>
+                     
+                        <div class="tres colunas">
+                            <a href="http://blogs.ne10.uol.com.br/horadacozinha/?boxne10" onClick="ga('send', 'event', 'Modulos', 'blog', 'foto');"><img src="http://imagens2.ne10.uol.com.br/ne10/imagem/98237468530aa1ec1c45b428264e0595.jpg" width="54" height="54"></a>
+                            <p class="descricao">
+                                <strong><a href="http://blogs.ne10.uol.com.br/horadacozinha/?boxne10" onClick="ga('send', 'event', 'Modulos', 'blog', 'titulo');">Hora da Cozinha</a></strong><span>:</span>
+                                Por Chef Wellington                            </p>
+                            <h3><a href="http://blogs.ne10.uol.com.br/horadacozinha/2015/10/21/experimente-fazer-bolo-de-carne-moida-com-molho-sabor-ervas-finas-tambau/?boxne10" onClick="ga('send', 'event', 'Modulos', 'blog', 'chamada');">Bolo de carne moída com ervas</a></h3>
+                        </div>
+                     
+                        <div class="tres colunas">
+                            <a href="http://blogs.ne10.uol.com.br/torcedor/?boxne10" onClick="ga('send', 'event', 'Modulos', 'blog', 'foto');"><img src="http://imagens2.ne10.uol.com.br/ne10/imagem/cba3dc785617fa10a208a6e810dad199.jpg" width="54" height="54"></a>
+                            <p class="descricao">
+                                <strong><a href="http://blogs.ne10.uol.com.br/torcedor/?boxne10" onClick="ga('send', 'event', 'Modulos', 'blog', 'titulo');">BLOG DO TORCEDOR</a></strong><span>:</span>
+                                Por Álvaro Filho                            </p>
+                            <h3><a href="http://blogs.ne10.uol.com.br/torcedor/2015/10/21/bom-trabalho-defensivo-devolveu-o-nautico-a-briga-pelo-g4/?boxne10" onClick="ga('send', 'event', 'Modulos', 'blog', 'chamada');">Náutico com boa defensa</a></h3>
+                        </div>
+                     
+                        <div class="tres colunas">
+                            <a href="http://blogs.ne10.uol.com.br/jamildo/?boxne10" onClick="ga('send', 'event', 'Modulos', 'blog', 'foto');"><img src="http://imagens2.ne10.uol.com.br/ne10/imagem/c6d1ebc6b49c13399e7e2b4f4a5b8b17.jpg" width="54" height="54"></a>
+                            <p class="descricao">
+                                <strong><a href="http://blogs.ne10.uol.com.br/jamildo/?boxne10" onClick="ga('send', 'event', 'Modulos', 'blog', 'titulo');">BLOG DE JAMILDO</a></strong><span>:</span>
+                                POR JAMILDO MELO                            </p>
+                            <h3><a href="http://blogs.ne10.uol.com.br/jamildo/2015/10/21/em-programa-partidario-psb-acusa-governo-de-ser-responsavel-pela-crise-atual/?boxne10" onClick="ga('send', 'event', 'Modulos', 'blog', 'chamada');">PSB acusa governo em nota</a></h3>
+                        </div>
+                                    </div>
+
+            </div>
+        </div>
+    </div> <!-- boxBlogsHome -->
+            
+</div>
+<!-- banner super meio, sempre aparecer abaixo do box de blogs -->
+<div class="posicao" id="banner-super-inferior" style="min-height: 0px; margin-bottom: 30px; padding: 0px; position: relative; height: 90px; z-index: 99999;">
+	<script language='Javascript' type='text/javascript'>
+    showBanner(12);
+</script></div><div class="posicao">
+        <!-- noticia fria halfbanner -->
+    <div class="modelonoticia maisnoticias comuniq halfbanner" data-ordem="0" data-id="-1">            
+        <div class="row">
+            <div class="span4">
+                <div class="topo">
+                    <h2 ><strong>ESTÉTICA</strong></h2>
+                    <div class="oferecimento">                                                     
+                        <script language='Javascript' type='text/javascript'>
+    showBanner(59);
+</script>                    </div>
+                </div>
+                <div class="chamadamenor chamada">
+                    <a href="http://revista-mensch.blogspot.com.br/2015/10/cuidados-pessoais-o-efeito-do-tempo-na.html">
+                        <img  modulo="halfbanner" src="http://imagens2.ne10.uol.com.br/ne10/imagem/home-portal/normal/3f187b4add6e51ef8da5a27f9ab24082.jpg" alt="Imagem de modelo. Foto: divulgação" title="Imagem de modelo. Foto: divulgação" >
+                    </a>
+                    <span class="chapeu padrao6"><a href="http://revista-mensch.blogspot.com.br/2015/10/cuidados-pessoais-o-efeito-do-tempo-na.html"   >REVISTA MENSCH</a></span>
+                    <h4><a href="http://revista-mensch.blogspot.com.br/2015/10/cuidados-pessoais-o-efeito-do-tempo-na.html"  >O efeito do tempo na pele masculina; saiba como cuidar</a></h4>
+                </div> 
+            </div>
+            <div class="span4">
+                <iframe width="300px" height="600px" frameborder="0" src="http://comuniqapp.ne10.uol.com.br/comuniq/ne10/?v=1.9&#600-BA1414-150"></iframe>
+            </div>
+            <div class="span4">
+                <script language='Javascript' type='text/javascript'>
+    showBanner(46);
+</script>            </div>
+        </div>
+    </div>
+
+        
+</div><div class="posicao">
+        <div class="modelonoticia brasilemundo" data-ordem="0" data-id="-1">
+        <div class="row">
+            <div class="span12 topo">
+                <h2  ><strong>NOTÍCIAS</strong></h2>
+
+                <div class="oferecimento">
+                    <script language='Javascript' type='text/javascript'>
+    showBanner(53);
+</script>                </div>
+
+                <ul class="links">
+                    
+                                    </ul>
+            </div>
+        </div>
+        <div class="colunavideo floatleft">
+
+            <div class="principal">
+                <img
+                                    modulo="brasilemundo3"
+                    src="http://imagens2.ne10.uol.com.br/ne10/imagem/home-portal/normal/0f94e0a5e800e403abf42bdf6a847e08.jpg"
+                    width="240"
+                    height="150"
+                    alt="Imagem de pessoa preenchendo jogos"
+                    title="Imagem de pessoa preenchendo jogos"
+                    />
+                <h3><a href="http://noticias.ne10.uol.com.br/brasil/noticia/2015/10/21/um-apostador-acerta-as-seis-dezenas-da-mega-sena-576211.php"  >Um apostador ganha R$ 47 mi na Mega-Sena</a></h3>
+            </div>
+
+            <div class="relacionada">
+                <h4><a href="http://jconline.ne10.uol.com.br/canal/veiculos/noticia/2015/10/21/stf-decide-que-registro-de-compra-de-carro-em-cartorio-nao-e-obrigatorio-204678.php"  >STF: Registro de compra de carro em cartório não é obrigatório</a></h4>
+            </div>
+
+            <div class="relacionada">
+                <h4><a href="http://noticias.ne10.uol.com.br/economia/noticia/2015/10/21/apos-rejeitar-proposta-de-875_porcento-bancarios-decidem-manter-greve-576163.php"  >Bancários rejeitam proposta de 8,75% e mantêm greve</a></h4>
+            </div>
+
+            <div class="relacionada">
+                <h4><a href="http://noticias.ne10.uol.com.br/economia/noticia/2015/10/21/prazo-para-cadastramento-no-simples-domestico-termina-no-fim-deste-mes-576147.php"  >Cadastramento no Simples Doméstico acaba este mês</a></h4>
+            </div>
+
+        </div>
+
+        <div class="colunachamadas floatright">
+            <div class="principaischamadas floatleft">
+                <h3 ><strong>OPORTUNIDADE</strong></h3>
+                <div class="principal">
+                    <a href="http://jconline.ne10.uol.com.br/canal/economia/pernambuco/noticia/2015/10/21/inscricoes-para-concurso-da-facepe-seguem-ate-8-de-novembro-204584.php"  title="Inscrições para concurso da Facepe seguem até 8 de novembro">
+                        <img  modulo="brasilemundo1"  src="http://imagens2.ne10.uol.com.br/ne10/imagem/home-portal/normal/0823ac28f6033ca9165f8df6e41e1890.jpg" width="148" height="111" alt="Imagem de frente da Facepe" title="Imagem de frente da Facepe">
+                    </a>
+                    <span class="chapeu padrao1">
+                        <a href="http://jconline.ne10.uol.com.br/canal/economia/pernambuco/noticia/2015/10/21/inscricoes-para-concurso-da-facepe-seguem-ate-8-de-novembro-204584.php" title="Inscrições para concurso da Facepe seguem até 8 de novembro"   >35 VAGAS</a>
+                    </span>
+                    <h4><a href="http://jconline.ne10.uol.com.br/canal/economia/pernambuco/noticia/2015/10/21/inscricoes-para-concurso-da-facepe-seguem-ate-8-de-novembro-204584.php" title="Inscrições para concurso da Facepe seguem até 8 de novembro"  >Inscrições para concurso da Facepe seguem até 8 de novembro</a></h4>
+                </div>
+                <div class="relacionada floatleft">
+                    <span class="chapeu padrao1">
+                        <a href="http://jconline.ne10.uol.com.br/canal/economia/concurso-e-emprego/noticia/2015/10/21/caixa-economica-abre-inscricoes-para-selecao-de-estagiarios-204691.php" title="Caixa Econômica abre inscrições para seleção de estagiários"   >CADASTRO DE RESERVA</a>
+                    </span>
+                    <h4><a href="http://jconline.ne10.uol.com.br/canal/economia/concurso-e-emprego/noticia/2015/10/21/caixa-economica-abre-inscricoes-para-selecao-de-estagiarios-204691.php" title="Caixa Econômica abre inscrições para seleção de estagiários"  >Caixa Econômica abre inscrições para seleção de estagiários</a></h4>
+                </div>
+                <div class="relacionada floatleft">
+                    <span class="chapeu padrao1">
+                        <a href="http://jconline.ne10.uol.com.br/canal/economia/nacional/noticia/2015/10/21/com-grande-procura-mutirao-do-procon-para-endividados-vai-ate-o-dia-6-de-novembro---204684.php" title="Com grande procura, mutirão do Procon vai até o dia 6 de novembro"   >ENDIVIDADOS</a>
+                    </span>
+                    <h4><a href="http://jconline.ne10.uol.com.br/canal/economia/nacional/noticia/2015/10/21/com-grande-procura-mutirao-do-procon-para-endividados-vai-ate-o-dia-6-de-novembro---204684.php" title="Com grande procura, mutirão do Procon vai até o dia 6 de novembro"  >Com grande procura, mutirão do Procon vai até o dia 6 de novembro</a></h4>
+                </div>
+            </div>
+
+            <div class="colunaextra floatright">
+                <h3 ><strong>POLÍCIA</strong></h3>
+                <a href="http://tvjornal.ne10.uol.com.br/noticia/ultimas/2015/10/21/domestica-grava-assedio-sexual-e-denuncia-chefe-no-recife-21587.php"  title="Doméstica grava assédio sexual e denuncia patrão no Recife">
+                    <img  modulo="brasilemundo4" src="http://imagens2.ne10.uol.com.br/ne10/imagem/home-portal/normal/2c351b2a787e6e009b1fc78850ecb90a.jpg" width="175" height="131" alt="Imagem de cena de vídeo" title="Imagem de cena de vídeo">
+                </a>
+                <p><a href="http://tvjornal.ne10.uol.com.br/noticia/ultimas/2015/10/21/domestica-grava-assedio-sexual-e-denuncia-chefe-no-recife-21587.php"  title="Doméstica grava assédio sexual e denuncia patrão no Recife" >Doméstica grava assédio sexual e denuncia patrão no Recife</a></p>
+            </div>
+
+            <div class="ultimaschamadas">
+                <div class="principal floatleft">
+                    <a href="http://jconline.ne10.uol.com.br/canal/cidades/geral/noticia/2015/10/21/shopping-recife-promove-acao-para-adocao-de-caes-e-gatos-204645.php"  title="Shopping Recife promove ação para adoção de cães e gatos">
+                        <img  modulo="brasilemundo2" src="http://imagens2.ne10.uol.com.br/ne10/imagem/home-portal/normal/a6540de73ee21a67dbbc0b0e83d3fc9f.jpg" width="121" height="91" alt="Imagem de cães e gatos abandonados" title="Imagem de cães e gatos abandonados">
+                    </a>
+                    <h3><a href="http://jconline.ne10.uol.com.br/canal/cidades/geral/noticia/2015/10/21/shopping-recife-promove-acao-para-adocao-de-caes-e-gatos-204645.php"  title="Shopping Recife promove ação para adoção de cães e gatos" ><strong>RECIFE</strong></a></h3>
+                    <p><a href="http://jconline.ne10.uol.com.br/canal/cidades/geral/noticia/2015/10/21/shopping-recife-promove-acao-para-adocao-de-caes-e-gatos-204645.php"  title="Shopping Recife promove ação para adoção de cães e gatos" >Shopping Recife promove ação para adoção de cães e gatos</a></p>
+                </div>
+                <div class="relacionada floatleft">
+                    <span class="chapeu padrao1">
+                        <a href="http://noticias.ne10.uol.com.br/jc-transito/noticia/2015/10/21/moradores-de-comunidades-na-zona-oeste-bloqueiam-avenida-caxanga-em-protesto-576167.php"  title="Moradores bloqueiam Avenida Caxangá em protesto"  >RECIFE</a>
+                    </span>
+                    <h3><a href="http://noticias.ne10.uol.com.br/jc-transito/noticia/2015/10/21/moradores-de-comunidades-na-zona-oeste-bloqueiam-avenida-caxanga-em-protesto-576167.php"  title="Moradores bloqueiam Avenida Caxangá em protesto" >Moradores bloqueiam Avenida Caxangá em protesto</a></h3>
+                </div>
+                <div class="relacionada floatleft">
+                    <span class="chapeu padrao1">
+                        <a href="http://jconline.ne10.uol.com.br/canal/cidades/policia/noticia/2015/10/21/detento-e-baleado-em-tentativa-de-fuga-no-complexo-prisional-do-curado-204707.php"  title="Detento é baleado em tentativa de fuga em complexo prisional" >CURADO</a>
+                    </span>
+                    <h3><a href="http://jconline.ne10.uol.com.br/canal/cidades/policia/noticia/2015/10/21/detento-e-baleado-em-tentativa-de-fuga-no-complexo-prisional-do-curado-204707.php"  title="Detento é baleado em tentativa de fuga em complexo prisional" >Detento é baleado em tentativa de fuga em complexo prisional</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- noticia fria cotidiano -->
+</div><div class="posicao">
+        <div class="modelonoticia esportes" data-ordem="0" data-id="-1">
+
+        <div class="row">
+            <div class="span12 topo">
+                <h2 ><strong>ESPORTES</strong></h2>
+
+                <div class="oferecimento">
+                    <script language='Javascript' type='text/javascript'>
+    showBanner(55);
+</script>                </div>
+
+                <ul class="links">
+                    
+                                    </ul>
+            </div>
+        </div>
+
+        <div class="linha">
+            <div class="tres colunas primeirachamada">
+                <span class="chapeu padrao24" >
+                    <a href="http://blogs.ne10.uol.com.br/torcedor/2015/10/21/santa-apos-duas-derrotas-alguns-jogadores-tem-evitado-dar-entrevistas/"  title="Após derrotas, alguns jogadores têm evitado dar entrevistas" >SANTA CRUZ</a>
+                </span>
+                <h3><a href="http://blogs.ne10.uol.com.br/torcedor/2015/10/21/santa-apos-duas-derrotas-alguns-jogadores-tem-evitado-dar-entrevistas/"  title="Após derrotas, alguns jogadores têm evitado dar entrevistas" >Após derrotas, alguns jogadores têm evitado dar entrevistas</a></h3>
+            </div>
+            <div class="nove colunas nossofutebol">
+                <h3 class="titulosecao">DESTAQUES</h3>
+                <div class="linha">
+                    <div class="quatro colunas">
+                        <a href="http://blogs.ne10.uol.com.br/torcedor/2015/10/21/torcida-do-santa-cruz-tambem-confia-no-acesso-a-serie-a/"  title="Torcida do Santa Cruz confia no acesso à Série A">
+                            <img  modulo="esportes1" src="http://imagens2.ne10.uol.com.br/ne10/imagem/home-portal/normal/3cc1c150e52976e6bb12f72bc37929f2.jpg" width="217" height="122" alt="Imagem da torcida do Santa Cruz" title="Imagem da torcida do Santa Cruz" ></a>
+                        <span class="chapeu padrao24" >
+                            <a href="http://blogs.ne10.uol.com.br/torcedor/2015/10/21/torcida-do-santa-cruz-tambem-confia-no-acesso-a-serie-a/"  title="Torcida do Santa Cruz confia no acesso à Série A" >ARRUDA</a>
+                        </span>
+                        <h4><a href="http://blogs.ne10.uol.com.br/torcedor/2015/10/21/torcida-do-santa-cruz-tambem-confia-no-acesso-a-serie-a/"  title="Torcida do Santa Cruz confia no acesso à Série A" >Torcida do Santa Cruz confia no acesso à Série A</a></h4>
+                    </div>
+
+                    <div class="quatro colunas">
+                        <a href="http://blogs.ne10.uol.com.br/torcedor/2015/10/21/nautico-receita-de-biteco-e-tentar-ganhar-tudo-que-vem-pela-frente/"  title="Receita de Biteco é ganhar tudo que vem pela frente">
+                            <img  modulo="esportes1" src="http://imagens2.ne10.uol.com.br/ne10/imagem/home-portal/normal/2f34ef935fd6947d8fce9fc2453e9e90.jpg" width="217" height="122" alt="Foto: AFP" title="Foto: AFP" >
+                        </a>
+                        <span class="chapeu padrao24" >
+                            <a href="http://blogs.ne10.uol.com.br/torcedor/2015/10/21/nautico-receita-de-biteco-e-tentar-ganhar-tudo-que-vem-pela-frente/"  title="Receita de Biteco é ganhar tudo que vem pela frente" >NÁUTICO</a>
+                        </span>
+                        <h4><a href="http://blogs.ne10.uol.com.br/torcedor/2015/10/21/nautico-receita-de-biteco-e-tentar-ganhar-tudo-que-vem-pela-frente/"  title="Receita de Biteco é ganhar tudo que vem pela frente" >Receita de Biteco é ganhar tudo que vem pela frente</a></h4>
+                    </div>
+
+                    <div class="quatro colunas">
+                        <a href="http://esportes.ne10.uol.com.br/futebol/noticia/2015/10/21/astros-decepcionam-e-real-empata-sem-gols-com-psg-em-paris-576160.php" >
+                            <img  modulo="esportes1" src="http://imagens2.ne10.uol.com.br/ne10/imagem/home-portal/normal/c65a618349f2af7a0d9d9696e1879a47.jpg" width="217" height="122" alt="Foto: AFP" title="Foto: AFP" >
+                        </a>
+                        <span class="chapeu padrao24" >
+                            <a href="http://esportes.ne10.uol.com.br/futebol/noticia/2015/10/21/astros-decepcionam-e-real-empata-sem-gols-com-psg-em-paris-576160.php"  title="Astros decepcionam e Real empata sem gols com PSG" >PARIS</a>
+                        </span>
+                        <h4><a href="http://esportes.ne10.uol.com.br/futebol/noticia/2015/10/21/astros-decepcionam-e-real-empata-sem-gols-com-psg-em-paris-576160.php"  title="Astros decepcionam e Real empata sem gols com PSG" >Astros decepcionam e Real empata sem gols com PSG</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="linha">
+            <div class="tres colunas">
+                			
+	<div class="caixaesquerda">
+			<h3>Enquete</h3>
+								<p>Quem vai conseguir o acesso na Série B?</p>
+					<div id="div_respostas_enquete_esporte"></div>
+					<form id="formEnqueteEsporte"  name="formEnqueteEsporte">
+						<input type="hidden" name="intIdEnquete" id="intIdEnquete" value="90" />
+						<ul>
+																<li class="clearfix first"><input type="radio" name="intOpcaoResposta" value="730" id="resposta_0" class="radio" /><label for="resposta_0">Náutico</label></li>
+																<li class="clearfix first"><input type="radio" name="intOpcaoResposta" value="731" id="resposta_1" class="radio" /><label for="resposta_1">Santa Cruz</label></li>
+																<li class="clearfix first"><input type="radio" name="intOpcaoResposta" value="732" id="resposta_2" class="radio" /><label for="resposta_2">Ambos</label></li>
+														
+						</ul>
+						<input id="bt_votar_enquete_esporte" type="button" value="votar" class="submit" name="bt_votar_enquete_esporte">
+						<input id="bt_resultado_enquete_esporte" type="button" value="ver resultado" name="bt_resultado_enquete_esporte">
+					</form>
+				
+		</div>
+            </div>
+            <div class="nove colunas brasileirao">
+                <h3 class="titulosecao">
+                    <span id="tituloCampeonato"></span>
+                    <span class="right">
+                        <select id="selCampeonato"></select>
+                    </span>
+                </h3>
+                <div class="linha">
+
+                    <div class="quatro colunas">
+                        <div class="caixa proximosjogos">
+                            <hgroup>
+								<h4><a href="" id="linkTabela">Próximos <span>Jogos</span></a></h4>
+                                <h5 class="dataJogo"></h5>
+                            </hgroup>
+                            <div class="areadeconteudo">
+                                <table>
+                                    <tbody id="jogosRodada"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quatro colunas">
+                        <div class="caixa tabeladepontos">                            
+							<h4><a href="" id="linkClassificacao">Classificação</a></h4>
+                            <div class="titulotabela">
+                                <table id="topo-tabela-pontos">
+                                    <thead>
+                                        <tr>
+                                            <th>Time
+                                            </th><th>P
+                                            </th><th>J
+                                            </th><th>V
+                                            </th></tr>
+                                    </thead>
+                                </table>
+                            </div>
+                            <div class="areadeconteudo">
+                                <table>
+                                    <tbody id="classificacaoCampeonato">
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quatro colunas ultimachamada">
+                        <a href="http://esportes.ne10.uol.com.br/futebol/noticia/2015/10/21/vice-da-cbf-delfim-e-denunciado-no-stjd-e-pode-ser-suspenso-por-6-meses-576207.php"  title="Vice da CBF, Delfim é denunciado e pode ser suspenso por 6 meses">
+                            <img  modulo="esportes2" src="http://imagens2.ne10.uol.com.br/ne10/imagem/home-portal/normal/e1831b844e86970601c5370cef04ebbf.jpg" width="217" height="166" alt="Foto: divulgação" title="Foto: divulgação" >
+                        </a>
+                        <span class="chapeu padrao24" >
+                            <a href="http://esportes.ne10.uol.com.br/futebol/noticia/2015/10/21/vice-da-cbf-delfim-e-denunciado-no-stjd-e-pode-ser-suspenso-por-6-meses-576207.php"  title="Vice da CBF, Delfim é denunciado e pode ser suspenso por 6 meses" >STJD</a>
+                        </span>
+                        <a href="http://esportes.ne10.uol.com.br/futebol/noticia/2015/10/21/vice-da-cbf-delfim-e-denunciado-no-stjd-e-pode-ser-suspenso-por-6-meses-576207.php"  title="Vice da CBF, Delfim é denunciado e pode ser suspenso por 6 meses" ><h4>Vice da CBF, Delfim é denunciado e pode ser suspenso por 6 meses</h4></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+        <script type="application/javascript">
+        (function () {
+			$.ajax({
+				url: BASE_IMAGEM + "/js/jquery.nicescroll.min.js",
+				dataType: "script",
+				async: false
+			});
+			var campeonato = "http://interatividades.ne10.uol.com.br/tabela/campeonatos.json";
+			function loadingTabelas(idCampeonato) {
+				var tabelas = "http://interatividades.ne10.uol.com.br/tabela/campeonato_" + idCampeonato +".json";
+				$.getJSON(tabelas, {format: "json"}).done(function (data) {
+					// titulo do campeonato atualizado
+					$('#tituloCampeonato').html(data.campeonato.nome);
+					// clean tabela para os novos jogos do campeonato escolhido
+					$('#jogosRodada tr').remove();
+					// carrega dados para os proximos jogos
+					$.each(data.campeonato.prox_jogos, function (i, item) {
+						$('#jogosRodada').append('<tr><td>' + item.time_mandante.nome + '</td><td class="color">X</td><td>' + item.time_visitante.nome + '</td></tr>');
+					});
+					
+					// link das tabelas
+					$('#linkTabela').attr('href', 'http://esportes.ne10.uol.com.br/tabela/' + data.campeonato.url);
+					$('#linkClassificacao').attr('href', 'http://esportes.ne10.uol.com.br/classificacao/' + data.campeonato.url);
+					
+					if(data.campeonato.tipo == 1){
+						$('#topo-tabela-pontos').remove();
+						$(".titulotabela").append('<table id="topo-tabela-pontos"><thead><tr><th>Time</th><th>P</th><th>J</th><th>V</th></tr></thead></table>');
+						$('.areadeconteudo').css('height', '200px'); 
+					}else if(data.campeonato.tipo == 2){	
+						$('.areadeconteudo').css('height', '235px'); 
+						$('.areadeconteudo').css('padding-top', '5px'); 
+						$('#topo-tabela-pontos').remove();
+					}
+					
+					// classificacao 
+					$('#classificacaoCampeonato tr').remove();
+
+					var chaveamento = data.campeonato.partidas.grupos;
+					if(chaveamento != ''){
+						$('#classificacaoCampeonato tr').remove();
+						var gruposArray = new Array();  
+
+						for (var i = 0; i < chaveamento.length; i++) {
+							gruposArray.push(chaveamento[i].nome);                       
+						};
+
+						var classificacaoArray = new Array();
+						var nomeGrupoClassificacao = new Array();
+						var classificacao = data.campeonato.classificacao;
+
+						$.each (classificacao, function(x, grupos){		
+							nomeGrupoClassificacao.push(x.replace('-', ' '));
+							classificacaoArray.push(grupos);                 
+						});
+					  
+						for (var i = 0; i < gruposArray.length; i++){
+							
+							/* criando os cabeçalhos dos grupos */
+							if(data.campeonato.tipo == 2){
+								$("#classificacaoCampeonato").append('<tr style="border-bottom: solid 1px #eee; color:#A0A0A0; text-transform: uppercase;"><th><b style="padding-top: 10px;font-size: 10px;color: #999;display: block">' + nomeGrupoClassificacao[i] + '</b></th><th><b style="padding-top: 10px;font-size: 10px;color: #999;display: block">P</b></th><th><b style="padding-top: 10px;font-size: 10px;color: #999;display: block">J</b></th><th><b style="padding-top: 10px;font-size: 10px;color: #999;display: block">V</b></th>'); 
+							}
+							
+							for (var z = 0; z < classificacaoArray[i].length; z++){									
+								var trDados = '<tr><td>' + classificacaoArray[i][z].nome + 
+											  '</td><td class="color">' + classificacaoArray[i][z].pontos + 
+											  '</td><td>' + classificacaoArray[i][z].jogos + 
+											  '</td><td>' + classificacaoArray[i][z].vitorias +'</td></tr>';                      
+								$("#classificacaoCampeonato").append(trDados);                      
+							}            
+						}  
+					}else{
+							// clean tabela para os novos jogos do campeonato escolhido
+							$('#jogosRodada tr').remove();
+
+							// carrega dados para os proximos jogos
+							$.each(data.campeonato.prox_jogos, function (i, item) {
+								$('#jogosRodada').append('<tr><td>' + item.time_mandante.nome + '</td><td class="color">X</td><td>' + item.time_visitante.nome + '</td></tr>');
+							});
+
+							$('#classificacaoCampeonato tr').remove();
+
+							$.each(data.campeonato.classificacao, function (i, item) {
+								$.each(item, function (ii, time) {
+									var trDados = '<tr><td>' + time.nome + '</td><td class="color">' + time.pontos + '</td><td>' + time.jogos + '</td><td>' + time.vitorias +'</td></tr>';
+									$("#classificacaoCampeonato").append(trDados);
+								});	
+							});
+					}
+				});
+				
+				$(".modelonoticia.esportes .brasileirao .caixa .areadeconteudo:first").css('height','230px').css('overflow','hidden').niceScroll({cursorcolor: "#333333"});
+				$(".modelonoticia.esportes .brasileirao .caixa .areadeconteudo:last").css('height','200px').css('overflow','hidden').niceScroll({cursorcolor: "#333333"});
+			}			
+			
+			$.getJSON(campeonato, {format: "json"}).done(function (data){
+					$.each(data, function (i, item) {
+						if(item.tipo != 3){
+							$("<option />").attr("value",item.id).text(item.nome).appendTo("#selCampeonato");
+						}
+					});
+					var current = $("#selCampeonato").val();
+				loadingTabelas(current);
+			});
+		
+			$("#selCampeonato").on('change',function (e) {
+				var idCampeonato = $(this).val();
+				loadingTabelas(idCampeonato);
+			});
+		})();
+        </script>
+        
+</div><div class="posicao">
+        <div class="modelonoticia entretenimento" data-ordem="0" data-id="-1">
+
+        <div class="row">
+            <div class="span12 topo">
+                <h2 ><strong>CULTURA</strong></h2>
+
+                <div class="oferecimento">
+                    <script language='Javascript' type='text/javascript'>
+    showBanner(57);
+</script>                </div>
+
+                <ul class="links">
+                    
+                                    </ul>
+            </div>
+        </div>
+
+        <div class="linha">
+            <div class="oito colunas">
+
+                <div class="linha chamadas">
+                    <div class="quatro colunas">
+                        <a href="http://entretenimento.ne10.uol.com.br/cine-e-teatro/noticia/2015/10/21/montagem-savana-glacial-em-cartaz-na-caixa-cultural-576132.php"  title="Montagem Savana Glacial em cartaz na Caixa Cultural">
+                            <img  modulo="entretenimento" src="http://imagens2.ne10.uol.com.br/ne10/imagem/home-portal/normal/993c6d9bd67e10d51686bbab9ba88b25.jpg" width="193" height="107" alt="Imagem de personagens da peça" title="Imagem de personagens da peça" />
+                        </a>
+                        <span class="chapeu padrao6" >
+                            <a href="http://entretenimento.ne10.uol.com.br/cine-e-teatro/noticia/2015/10/21/montagem-savana-glacial-em-cartaz-na-caixa-cultural-576132.php"  title="Montagem Savana Glacial em cartaz na Caixa Cultural"  >TEATRO</a>
+                        </span>
+                        <h3>
+                            <a href="http://entretenimento.ne10.uol.com.br/cine-e-teatro/noticia/2015/10/21/montagem-savana-glacial-em-cartaz-na-caixa-cultural-576132.php"  title="Montagem Savana Glacial em cartaz na Caixa Cultural"  >Montagem Savana Glacial em cartaz na Caixa Cultural</a>
+                        </h3>
+                                            </div> <!-- quatro colunas -->
+                    <div class="quatro colunas">
+                        <span class="chapeu padrao6" >
+                            <a href="http://entretenimento.ne10.uol.com.br/musica/noticia/2015/10/21/edicao-especial-do-coquetel-molotov-chega-a-belo-jardim-576118.php"  title="Edição especial do Coquetel Molotov chega a Belo Jardim"  >FESTIVAL</a>
+                        </span>
+                        <h3><a href="http://entretenimento.ne10.uol.com.br/musica/noticia/2015/10/21/edicao-especial-do-coquetel-molotov-chega-a-belo-jardim-576118.php"  title="Edição especial do Coquetel Molotov chega a Belo Jardim"  >Edição especial do Coquetel Molotov chega a Belo Jardim</a></h3>
+                        <a href="http://entretenimento.ne10.uol.com.br/musica/noticia/2015/10/21/edicao-especial-do-coquetel-molotov-chega-a-belo-jardim-576118.php" >
+                            <img  modulo="entretenimento" src="http://imagens2.ne10.uol.com.br/ne10/imagem/home-portal/normal/fefff964cdec419843441634f5084582.jpg" width="193" height="107" alt="Imagem da banda Mundo Livre S/A" title="Imagem da banda Mundo Livre S/A" >
+                        </a>
+                                            </div> <!-- quatro colunas -->
+                    <div class="quatro colunas">
+                        <a href="http://entretenimento.ne10.uol.com.br/musica/noticia/2015/10/21/george-israel-e-o-convidado-da-festa-que-a-uptown-band-promove-nesta-quinta-576112.php" >
+                            <img  modulo="entretenimento" src="http://imagens2.ne10.uol.com.br/ne10/imagem/home-portal/normal/01ae3a68975ec08c8e70dc6c885ede97.jpg" width="193" height="107" alt="Imagem de George Israel" title="Imagem de George Israel" >
+                        </a>
+                        <span class="chapeu padrao6" >
+                            <a href="http://entretenimento.ne10.uol.com.br/musica/noticia/2015/10/21/george-israel-e-o-convidado-da-festa-que-a-uptown-band-promove-nesta-quinta-576112.php"  title="George Israel é o convidado da Uptown Blues Band"  >CELEBRAÇÃO</a>
+                        </span>
+                        <h3>
+                            <a href="http://entretenimento.ne10.uol.com.br/musica/noticia/2015/10/21/george-israel-e-o-convidado-da-festa-que-a-uptown-band-promove-nesta-quinta-576112.php"  title="George Israel é o convidado da Uptown Blues Band"  >George Israel é o convidado da Uptown Blues Band</a>
+                        </h3>
+                                            </div> <!-- quatro colunas -->
+                </div> <!-- linha chamadas -->
+
+                    <div class="linha videos linha-videos-entretenimento">
+        <div class="cinco colunas list">
+            <h3>CINEMA</h3>
+            <ul>
+                <li class="first">
+                    <div id="chamada1" class="linha" style="cursor: pointer;">
+                        <div class="quatro colunas">
+                                                        <a id="link-chamada1" rel="qvsgGtivCgs" class="youtube">
+                                <img id="thumb-chamada1" src="http://img.youtube.com/vi/qvsgGtivCgs/1.jpg" width="65" height="52" />
+                            </a>
+                        </div>
+                        <div class="oito colunas">
+                            <h4>
+                                <a id="titulo-chamada1">Trilogia De Volta Para o Futuro na tela do Cinemark e do Cinépolis</a>
+                            </h4>
+                        </div>
+                    </div>
+                </li>
+                <li class="odd">
+                    <div id="chamada2" class="linha" style="cursor: pointer;">
+                        <div class="quatro colunas">
+                                                        <a id="link-chamada2" rel="bxRqAAShwK8" class="youtube">
+                                <img id="thumb-chamada2" src="http://img.youtube.com/vi/bxRqAAShwK8/1.jpg" width="65" height="52" />
+                            </a>
+                        </div>
+                        <div class="oito colunas">
+                            <h4>
+                                <a id="titulo-chamada2">Paixão aterrorizante com A Colina Escalarte </a>
+                            </h4>
+                        </div>
+                    </div>
+                </li>
+                <li class="last">
+                    <div id="chamada3" class="linha" style="cursor: pointer;">
+                        <div class="quatro colunas">
+                                                        <a id="link-chamada3" rel="7Cn716jv61s" class="youtube">
+                                <img id="thumb-chamada3" src="http://img.youtube.com/vi/7Cn716jv61s/1.jpg" width="65" height="52" />
+                            </a>
+                        </div>
+                        <div class="oito colunas">
+                            <h4>
+                                <a id="titulo-chamada3">Goosebumps: Mosntros e Arrepios em pré-estreia no Recife</a>
+                            </h4>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div> <!-- quatro colunas list -->
+                <div id="div-principal" class="sete colunas video youtube" rel="xksgFpJK5hM">
+            <a id="embed-chamada-principal"><object width='350' height='198'>
+                <param name='movie' value='http://www.youtube.com/v/xksgFpJK5hM?fs=1&amp;hl=pt_BR&amp;rel=0'></param>
+                <param name='allowFullScreen' value='true'></param>
+                <param value='transparent' name='wmode'/>
+                <param name='allowscriptaccess' value='always'>
+                </param>
+                <embed src='http://www.youtube.com/v/xksgFpJK5hM?fs=1&amp;hl=pt_BR&amp;rel=0' type='application/x-shockwave-flash' allowscriptaccess='always' allowfullscreen='true' width='350' height='198' wmode='transparent' ></embed>
+                </object></a>
+            <h4><a id="titulo-chamada-principal">O nacional Operações Especiais entra em cartaz nas telonas</a></h4>
+        </div>  <!-- oito colunas video -->
+    </div>
+    <script type="text/javascript" src="http://imagens2.ne10.uol.com.br/ne10/js/box.midia.entretenimento.js?ne10"></script>
+                    <div class="linha chamadas">
+                    <div class="quatro colunas">
+                        <span class="chapeu padrao6" >
+                            <a href="http://revistaogrito.ne10.uol.com.br/page/blog/2015/10/21/critica-disco-cadu-tenorio-e-jucara-marcal-anganga/"  title="Crítica: Cadu Tenório e Juçara Marçal e Anganga"  >O GRITO!</a>
+                        </span>
+                        <h3><a href="http://revistaogrito.ne10.uol.com.br/page/blog/2015/10/21/critica-disco-cadu-tenorio-e-jucara-marcal-anganga/"  title="Crítica: Cadu Tenório e Juçara Marçal e Anganga"  >Crítica: Cadu Tenório e Juçara Marçal e Anganga</a></h3>
+                        <a href="http://revistaogrito.ne10.uol.com.br/page/blog/2015/10/21/critica-disco-cadu-tenorio-e-jucara-marcal-anganga/"  title="Crítica: Cadu Tenório e Juçara Marçal e Anganga">
+                            <img  modulo="entretenimento" src="http://imagens2.ne10.uol.com.br/ne10/imagem/home-portal/normal/7076247f2157769d78c87bdefeb2f272.jpg" width="193" height="107" alt="Imagem do disco" title="Imagem do disco" >
+                        </a>
+                                            </div> <!-- quatro colunas -->
+                    <div class="quatro colunas">
+                        <a href="http://jc.ne10.uol.com.br/blogs/terceiroato/2015/10/21/joao-falcao-deve-remontar-gota-dagua/"  title="João Falcão deve remontar ‘Gota d’Água’">
+                            <img  modulo="entretenimento" src="http://imagens2.ne10.uol.com.br/ne10/imagem/home-portal/normal/51ef540adc559fedaf209607777dc4ee.jpg" width="193" height="107" alt="Imagem de João Falcão" title="Imagem de João Falcão" >
+                        </a>
+                        <span class="chapeu padrao6" >
+                            <a href="http://jc.ne10.uol.com.br/blogs/terceiroato/2015/10/21/joao-falcao-deve-remontar-gota-dagua/"  title="João Falcão deve remontar ‘Gota d’Água’"  >TEATRO</a>
+                        </span>
+                        <h3><a href="http://jc.ne10.uol.com.br/blogs/terceiroato/2015/10/21/joao-falcao-deve-remontar-gota-dagua/"  title="João Falcão deve remontar ‘Gota d’Água’"  >João Falcão deve remontar ‘Gota d’Água’</a></h3>
+                                            </div> <!-- quatro colunas -->
+                    <div class="quatro colunas">
+                        <span class="chapeu padrao6" >
+                            <a href="http://natelinha.ne10.uol.com.br/noticias/2015/10/21/globo-define-tiago-leifert-como-apresentador-do-the-voice-kids-93505.php"  title="Tiago Leifert vai ser o apresentador do The Voice Kids"  >BATEU O MARTELO</a>
+                        </span>
+                        <h3><a href="http://natelinha.ne10.uol.com.br/noticias/2015/10/21/globo-define-tiago-leifert-como-apresentador-do-the-voice-kids-93505.php"  title="João Falcão deve remontar ‘Gota d’Água’"  >Tiago Leifert vai ser o apresentador do The Voice Kids</a></h3>
+                        <a href="http://natelinha.ne10.uol.com.br/noticias/2015/10/21/globo-define-tiago-leifert-como-apresentador-do-the-voice-kids-93505.php"  title="Tiago Leifert vai ser o apresentador do The Voice Kids">
+                            <img  modulo="entretenimento" src="http://imagens2.ne10.uol.com.br/ne10/imagem/home-portal/normal/330a7d8742a603e89190d01f1a4e36ac.jpg" width="193" height="107" alt="Imagem de Thiago Leifert" title="Imagem de Thiago Leifert" >
+                        </a>
+                                            </div> <!-- quatro colunas -->
+                </div> <!-- linha chamadas -->
+            </div> <!-- oito colunas -->
+
+            <div class="quatro colunas roteiro">
+                <h3 class="tituloroteiro">Roteiro</h3>
+                		<div class="cinema">
+
+			<a href="http://interatividades.ne10.uol.com.br/ne10/cinema">
+										<img id="entretenimento-imagem-filme" src="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/cc231e97ab10671742e2ced10b105b07.jpg" />
+									</a>
+			
+								<p><span class="tres estrelas">três estrelas</span></p>
+								
+			<h4><a href="http://interatividades.ne10.uol.com.br/ne10/cinema" id="entretenimento-titulo-filme">Que horas ela volta?</a></h4>
+			
+						
+			<form>
+				<select id="filmes-entretenimento">
+					<option>Outros filmes em cartaz</option>
+													<option 
+									value="6172" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/cc231e97ab10671742e2ced10b105b07.jpg" 
+									data-elenco="Regina Casé, Karine Teles, Lourenço Mutarelli"
+									>
+										Que horas ela volta?								</option>
+															<option 
+									value="6171" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/94298250c02afa9d9d169895cb565a1c.jpg" 
+									data-elenco="Alfredo Castro, Roberto Farías, Antonia Zegers"
+									>
+										O Clube								</option>
+															<option 
+									value="6170" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/c6cc3c748ec0e8c9b247c085e5ac76e0.jpg" 
+									data-elenco="Klaus Kinski, Isabelle Adjani, Bruno Ganz."
+									>
+										Nosferatu								</option>
+															<option 
+									value="6169" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/0fce2f7d90a704c615add39bf355a677.jpg" 
+									data-elenco="Fabrizio Rongione, Christelle Prot, Ludovico Succio "
+									>
+										La Sapienza								</option>
+															<option 
+									value="6168" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/" 
+									data-elenco="Irandhir Santos, Maeve Jinkings"
+									>
+										O som ao redor								</option>
+															<option 
+									value="6167" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/fcf8164d64ab9e6b237048332e50fed3.jpg" 
+									data-elenco="Roy Scheider, Robert Shaw, Richard Dreyfuss "
+									>
+										Tubarão								</option>
+															<option 
+									value="6166" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/712b47850c8189886036c97dd5d89e63.jpg" 
+									data-elenco=" Clara Cotelo, Juan Manuel Cotelo, Carmen Losa"
+									>
+										Terra de Maria								</option>
+															<option 
+									value="6165" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/6f35b69f963b7b854b34744680dc537b.jpg" 
+									data-elenco="Owen Wilson, Paul Newman, Bonnie Hunt "
+									>
+										Carros								</option>
+															<option 
+									value="6164" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/e695210931508709ac1a4b0238ac8265.jpg" 
+									data-elenco="Jean Reno, Anna Galiena, Chloé Jouannet "
+									>
+										Meu Verão na Provença								</option>
+															<option 
+									value="6163" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/77a2fd5adbe85a873471e7d124e22db8.jpg" 
+									data-elenco="Tom Hanks, Mark Rylance, Scott Shepherd "
+									>
+										Ponte dos Espiões								</option>
+															<option 
+									value="6162" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/c4d8b410da9503f7542f09563d8d8223.jpg" 
+									data-elenco="Robert De Niro, Anne Hathaway, Rene Russo "
+									>
+										Um Senhor Estagiário								</option>
+															<option 
+									value="6161" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/8aea2eb5a896dcc2322a44b1e4e1cd44.jpg" 
+									data-elenco="Adam Sandler, Andy Samberg, Selena Gomez"
+									>
+										Hotel Transilvânia 2								</option>
+															<option 
+									value="6160" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/8a972a3b74ac8a65db8dd9710c32f487.jpg" 
+									data-elenco="Emily Blunt, Benicio Del Toro, Josh Brolin"
+									>
+										Sicario: Terra de Ninguém								</option>
+															<option 
+									value="6159" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/cc4dc8b1bcbc8213ec72559bd6bef426.jpg" 
+									data-elenco="Mia Wasikowska , Tom Hiddleston, Jessica Chastain"
+									>
+										A Colina Escalarte								</option>
+															<option 
+									value="6158" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/66abc8c3724bea2cfca0021fe9c22ba3.jpg" 
+									data-elenco="Chris J. Murray, Brittany Shaw, Olivia Taylor Dudley "
+									>
+										Atividade Paranormal: Dimensão Fantasma								</option>
+															<option 
+									value="6157" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/07fdc72fc129b26c95ecc2d7e6604cc2.jpg" 
+									data-elenco="Cleo Pires, Fabrício Boliveira, Marcos Caruso "
+									>
+										Operações Especiais								</option>
+															<option 
+									value="6156" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/d11dffa64d1037ed43f97b769d1c292b.jpg" 
+									data-elenco="Ed Sheeran, Elton John"
+									>
+										Ed Sheeran - Jumpers For Goalpost								</option>
+															<option 
+									value="6155" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/d51cdabbecd0f272082d58b6005877f4.jpg" 
+									data-elenco="Dylan O'Brien, Kaya Scodelario, Thomas Brodie-Sangster mais
+Gênero	Aventura , Ficção científica , Ação"
+									>
+										Maze Runner: Prova de Fogo								</option>
+															<option 
+									value="6154" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/1686dc24e26c399555117cb39b2d1417.jpg" 
+									data-elenco="Paulo Gustavo, Cacau Protásio, Catarina Abdalla "
+									>
+										Vai Que Cola, O Filme								</option>
+															<option 
+									value="6153" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/c0a38779bad5a9c67755c9a004df62a6.jpg" 
+									data-elenco=" Imogen Poots, Owen Wilson, Illeana Douglas"
+									>
+										Um Amor a Cada Esquina								</option>
+															<option 
+									value="6152" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/1a4f8159e7c654e7e3bcec60e8896057.jpg" 
+									data-elenco="Jack Black, Dylan Minnette, Odeya Rush"
+									>
+										Goosebumps: Mosntros e Arrepios								</option>
+															<option 
+									value="6151" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/684e79236789143d86f8e3903cc46854.jpg" 
+									data-elenco="Giovanna Antonelli, Reynaldo Gianecchini, Fabiula Nascimento"
+									>
+										S.O.S. Mulheres ao Mar 2								</option>
+															<option 
+									value="6150" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/eb01ddf9948ab1fcaa6cb48f8ebf010d.jpg" 
+									data-elenco=" Hugh Jackman, Levi Miller (II), Garrett Hedlund"
+									>
+										Peter Pan								</option>
+															<option 
+									value="6149" 
+									data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/filmes/normal/d27269b64250110545cb2c9e75c636e6.jpg" 
+									data-elenco="Matt Damon, Jessica Chastain, Kristen Wiig"
+									>
+										Perdido em Marte								</option>
+											</select>
+			</form>
+
+		</div>
+		<script type="text/javascript" src="http://imagens1.ne10.uol.com.br/ne10/js/box-filmes.js"></script>
+		    <div class="show">
+
+        <a href="http://interatividades.ne10.uol.com.br/ne10/showsefestas">
+            <img id="entretenimento-imagem-shows" src="http://imagens2.ne10.uol.com.br/ne10/imagem/showsefestas/normal/63584df1463743d5aab96f470739cf71.jpg" />        </a>
+
+
+        <h4><a href="http://interatividades.ne10.uol.com.br/ne10/showsefestas" id="entretenimento-titulo-shows">Roberto Carlos em duas noites de shows no Classic Hall</a></h4>
+                
+        <form>
+            <select id="shows-entretenimento">
+                <option>Outros shows/festas em destaque</option>
+                
+															<option 
+										value="7414" 
+										data-imagem="http://imagens2.ne10.uol.com.br/ne10/imagem/showsefestas/normal/63584df1463743d5aab96f470739cf71.jpg"  
+										data-nome="Olinda"
+										data-observacao="Roberto Carlos se apresenta em duas noites no Classic Hall, nos dias 23 e 24 de outubro. "
+										>
+										Roberto Carlos em duas noites de shows no Classic Hall									</option>
+																		<option 
+										value="7502" 
+										data-imagem="http://imagens2.ne10.uol.com.br/ne10/imagem/cartaz_default_show.jpg"  
+										data-nome="Teatro RioMar"
+										data-observacao="Dudu Alves, Marcelo Melo, Roberto Medeiros, Ciano Alves e Sandro Lins, o Quinteto Violado, homenageia Dominguinhos, em show que vem percorrendo o País e agora chega ao Recife. O sanfoneiro Cezzinha faz participação especial."
+										>
+										Quinteto Violado revive Dominguinhos no Teatro RioMar									</option>
+																		<option 
+										value="7501" 
+										data-imagem="http://imagens2.ne10.uol.com.br/ne10/imagem/showsefestas/normal/293ea6ba8955e4a6a0c6cb36d17d88ef.jpg"  
+										data-nome="Clube Internacional"
+										data-observacao="A cantora Daniela Mercury traz para o Recife o seu show Rainha Má, A Festa. "
+										>
+										Daniela Mercury se transforma em Rainha Má, em show no Internacional									</option>
+																		<option 
+										value="7500" 
+										data-imagem="http://imagens2.ne10.uol.com.br/ne10/imagem/showsefestas/normal/7d129fc000b166147b9eb3813cdaa028.png"  
+										data-nome="Bairro do Recife"
+										data-observacao="O Rappa escolheu o Recife para gravação do seu DVD, que acontece no Cais da Alfândega e tem acesso gratuito do público."
+										>
+										Gravação do DVD de O Rappa, no Cais da Alfândega									</option>
+																		<option 
+										value="7499" 
+										data-imagem="http://imagens2.ne10.uol.com.br/ne10/imagem/showsefestas/normal/6148515a680cbe7d521a1056450af7bd.jpg"  
+										data-nome="Teatro Guararapes"
+										data-observacao="O cantor Jorge Vercilo está de volta aos palcos do Estado, com show no Teatro Guararapes, em novembro. O músico comemora 20 anos de carreira e faz, no dia 30 de outubro - um dia antes do show em Olinda - uma apresentação no Sesi de Caruaru."
+										>
+										Jorge Vercilo volta 									</option>
+																		<option 
+										value="7498" 
+										data-imagem="http://imagens2.ne10.uol.com.br/ne10/imagem/showsefestas/normal/0aff4bb458d8311d6c1a934dc0f8989a.jpg"  
+										data-nome="Chevrolet Hall "
+										data-observacao="A dupla comemora cinquenta anos de carreira, com show da turnê que percorre o País e chega ao palco do Classic Hall, em novembro"
+										>
+										Caetano Veloso e Gilberto Gil, fazem show comemorativo no Classic Hall									</option>
+																		<option 
+										value="7497" 
+										data-imagem="http://imagens2.ne10.uol.com.br/ne10/imagem/showsefestas/normal/d15fd1dd6fb4eb917b4c693ec3bdc96e.jpg"  
+										data-nome="Baile Perfumado"
+										data-observacao="O show da turnê Guelã, da cantora Maria Gadu, chega ao Recife. No repertório canções que integram o novo disco, como Obloco e Tecnopapiro."
+										>
+										Maria Gadu volta aos palcos do Recife, no Baile Perfumado									</option>
+																		<option 
+										value="7493" 
+										data-imagem="http://imagens2.ne10.uol.com.br/ne10/imagem/cartaz_default_show.jpg"  
+										data-nome="Teatro RioMar"
+										data-observacao="Após turnê que passou por 35 cidades brasileiras em 2014, a banda argentina Geminis volta ao País apresentando o novo show Uma Noite com os Bee Gees - Especial Love Songs. "
+										>
+										Tributo aos Bee Gees volta ao Brasil com novo show									</option>
+																		<option 
+										value="7492" 
+										data-imagem="http://imagens2.ne10.uol.com.br/ne10/imagem/cartaz_default_show.jpg"  
+										data-nome="Chevrolet Hall "
+										data-observacao="Os sertanejos Leonardo e Eduardo Costa chegam ao Classic Hall para apresentação do show Cabaré. Lucas Costa abre a noite."
+										>
+										Os cantores Leonardo e Eduardo Costa apresentam o show Cabaré									</option>
+																		<option 
+										value="7491" 
+										data-imagem="http://imagens2.ne10.uol.com.br/ne10/imagem/cartaz_default_show.jpg"  
+										data-nome="Chevrolet Hall "
+										data-observacao="Lulu Santos apresenta em Pernambuco o Clube£ux, o mesmo show que foi mostrado no Rock\'n\'Rio 2015. O DJ Sany Pitbull também sobe ao palco e se junta à formação. "
+										>
+										Lulu Santos volta aos palcos do Recife em novembro									</option>
+																		<option 
+										value="7489" 
+										data-imagem="http://imagens2.ne10.uol.com.br/ne10/imagem/cartaz_default_show.jpg"  
+										data-nome="Teatro Guararapes"
+										data-observacao="Bibi Ferreira celebra centenário de Frank Sinatra com show, em Olinda, de músicas interpretadas por Sinatra
+"
+										>
+										Bibi Ferreira Canta Repertório Sinatra no Guararapes									</option>
+																		<option 
+										value="7486" 
+										data-imagem="http://imagens2.ne10.uol.com.br/ne10/imagem/cartaz_default_show.jpg"  
+										data-nome="Teatro RioMar"
+										data-observacao="No stand-up Rafinha Bastos Apresenta o humorista recebe Marcelo Marrom e um convidado especial surpresa, num espetáculo que mistura irreverência, sarcasmo, improviso e música. "
+										>
+										Rafinha Bastos e Marcelo Marrom no Recife									</option>
+																		<option 
+										value="7481" 
+										data-imagem="http://imagens2.ne10.uol.com.br/ne10/imagem/cartaz_default_show.jpg"  
+										data-nome="Centro de Convenções de PE"
+										data-observacao="Os fãs da e-music podem aguardar a edição do King Festival para o dia 5 de dezembro, na área externa do Centro de Convenções. As atrações da line up começam a ser divulgadas nos próximos dias. 
+
+@
+
+Após um hiato de dois anos, o King Festival, um dos maiores eventos de música eletrônica do Nordeste volta a cena. Para ter uma ideia da dimensão do evento, na sua edição de 2013 a festa levou a Recife, durante dois dias, DJ\'s como Hardwell, Steve Angello, Nervo, Infected Mushroons e Afrojack. Outro histórico importante é o poderio de fogo de Ju Cavalcanti: ela foi a responsável pelas primeiras idas de Guetta a Pernambuco. 
+​"
+										>
+										King Festival promove música eletrônica em Olinda									</option>
+																		<option 
+										value="7478" 
+										data-imagem="http://imagens2.ne10.uol.com.br/ne10/imagem/cartaz_default_show.jpg"  
+										data-nome="Heliponto"
+										data-observacao="O projeto Baladinha da Praia traz o cantor baiano Durval Lélis que recorda os hits da banda Asa de Águia, entre eles, Manivela, Quebra Aê e Dia dos Namorados "
+										>
+										Durval Lelis faz show no Recife em Outubro									</option>
+																		<option 
+										value="7466" 
+										data-imagem="http://imagens2.ne10.uol.com.br/ne10/imagem/cartaz_default_show.jpg"  
+										data-nome="Teatro de Santa Isabel"
+										data-observacao="O Duelo da Rabeca com o Violino - Uma Peleja de Amor à Música, com o Maestro Israel França e o Mestre Maciel Salu, encerra a turnê no Teatro de Santa Isabel"
+										>
+										Santa Isabel recebe 'duelo' da rabeca e do violino									</option>
+																		<option 
+										value="7443" 
+										data-imagem="http://imagens2.ne10.uol.com.br/ne10/imagem/cartaz_default_show.jpg"  
+										data-nome="Baile Perfumado"
+										data-observacao="De volta ao passado com a banda Blitz, que comemora três décadas de estrada, no palco do Baile Perfumado."
+										>
+										Saudosismo da Blitz no Baile Perfumado									</option>
+									            </select>
+        </form>
+    </div>
+    <script type="text/javascript" src="http://imagens2.ne10.uol.com.br/ne10/js/box-shows.js"></script>
+    
+					<div class="teatro">
+
+
+			<a href="http://interatividades.ne10.uol.com.br/ne10/teatro">
+										<img id="entretenimento-imagem-teatro" src="http://imagens1.ne10.uol.com.br/ne10/imagem/teatros/normal/f3db2380847848e3f820cca4bc29ea2b.jpg" />
+									</a>
+
+			<h4><a id="entretenimento-titulo-teatro" href="http://interatividades.ne10.uol.com.br/ne10/teatro">Montagem Ópera do Malandro chega ao Teatro Guararapes no próximo final de semana</a></h4>
+
+			
+			<form>
+				<select id="teatro-entretenimento">
+					<option class="titulo-campo">Outras pe&ccedil;as em destaque</option>
+												<option
+								data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/cartaz_default_teatro.png"
+								data-elenco="Andréa Veruska e Wagner Montenegro"
+								value="630"
+							>
+								Espetáculo Las Mariposas denuncia casos de violência contra a mulher							</option>
+														<option
+								data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/teatros/normal/bb83dfe51faf54c181d63e3f3fa82523.jpg"
+								data-elenco="Ivan Leite e José Brito"
+								value="629"
+							>
+								Espetáculo Mateus e Catirina com apresentações gratuitas no Arraial							</option>
+														<option
+								data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/cartaz_default_teatro.png"
+								data-elenco="Rodrigo Dourado"
+								value="627"
+							>
+								Complexo de Cumbuca em cartaz com a segunda temporada							</option>
+														<option
+								data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/teatros/normal/9f1d8c1d9bf56b98479bde49f1c77374.jpg"
+								data-elenco="Ana Abbott, Camila Gama,  Diogo Cardoso e Renato Livera"
+								value="626"
+							>
+								Savana Glacial em três apresentações na Caixa Cultural							</option>
+														<option
+								data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/teatros/normal/f3db2380847848e3f820cca4bc29ea2b.jpg"
+								data-elenco="Adrén Alves, Alfredo Del Penho, Bruce de Araújo, Davi Guilhermme, Eduardo Landim, Eduardo Rios, Fábio Enriquez, Guilherme Borges, Larissa Luz,  Rafael Cavalcanti, Renato Luciano, Ricca Barros e Thomás Aquino"
+								value="623"
+							>
+								Montagem Ópera do Malandro chega ao Teatro Guararapes no próximo final de semana							</option>
+														<option
+								data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/cartaz_default_teatro.png"
+								data-elenco=""
+								value="616"
+							>
+								A Princesa e o Pirata no Teatro Boa Vista							</option>
+														<option
+								data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/cartaz_default_teatro.png"
+								data-elenco="Bruna Louise e Kéfera Buchmann"
+								value="609"
+							>
+								Deixa eu te contar							</option>
+														<option
+								data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/cartaz_default_teatro.png"
+								data-elenco=""
+								value="575"
+							>
+								A bicharada							</option>
+														<option
+								data-imagem="http://imagens1.ne10.uol.com.br/ne10/imagem/cartaz_default_teatro.png"
+								data-elenco=""
+								value="358"
+							>
+								Chapeuzinho Vermelho							</option>
+											</select>
+			</form>
+		</div>
+		<script type="text/javascript" src="http://imagens1.ne10.uol.com.br/ne10/js/box-teatro.js"></script>
+		            </div><!-- quatro colunas roteiro -->
+        </div><!-- linha -->
+    </div>
+        
+</div><div class="posicao">
+        <!-- noticia fria cotidiano -->
+    <div class="modelonoticia videos" data-ordem="20" data-id="-1">
+
+        <div class="row">
+            <div class="span12 topo">
+                <h2 >NE10 WEB <strong>VÍDEOS</strong></h2>
+                <!--  <div class="filtros">
+                    <a id="recentes" class="current" style="cursor: pointer;">RECENTES</a>
+                    <a id="vistos" style="cursor: pointer;">+VISTOS</a>
+                </div>-->
+
+                <div class="oferecimento">
+                    <script language='Javascript' type='text/javascript'>
+    showBanner(54);
+</script>                </div>
+
+                <form id="frmBuscaVideos" class="busca">
+                    <input type="text" id="busca-videos">
+                    <input type="submit" class="botao_submit_videos">
+                </form>
+            </div>
+        </div>
+        <!-- O carregamento dos videos será feito pelo o gerenciador de midia -->
+            <div class="row videos">
+
+        <div id="box-videos-chamadas" class="chamadas">
+
+                            <div class="span2 chamada" style="display:inline-block;">
+                    <a href="#" class="play" rel="15652508" name="2">
+                                                    <img src="http://storage.mais.uol.com.br/15652508-medium.jpg?ver=1" width="140" height="104" />
+                                                <img class='play' src="http://interatividades.ne10.uol.com.br/ne10/img/botao_play.png" alt="" />
+                    </a>
+                    <a href="http://interatividades.ne10.uol.com.br/ne10/videos/2015/10/22/em-recuperacao-vitimas-de-explosao-de-carroca-de-lanches-precisam-de-ajuda-3568.php" class="video_descricao">
+                        Em recuperação, vítimas de explosão de carroça de lanches precisam de ajuda                    </a>
+                    <span class="indiqueAmigo link-indique" data-i="717d8d71766b2dc8682457e7cf5d40db0b0cb08a" style="cursor: pointer;" >envie para um amigo</span>
+                </div>
+                                <div class="span2 chamada" style="display:inline-block;">
+                    <a href="#" class="play" rel="15646031" name="2">
+                                                    <img src="http://storage.mais.uol.com.br/15646031-medium.jpg?ver=1" width="140" height="104" />
+                                                <img class='play' src="http://interatividades.ne10.uol.com.br/ne10/img/botao_play.png" alt="" />
+                    </a>
+                    <a href="http://interatividades.ne10.uol.com.br/ne10/videos/2015/10/16/gerente-de-banco-e-sequestrado-e-obrigado-a-abrir-agencia-para-bandidos-3541.php" class="video_descricao">
+                        Gerente de banco é sequestrado e obrigado a abrir agência para bandidos                    </a>
+                    <span class="indiqueAmigo link-indique" data-i="643fd520debff9520d6b712f7e0c516bf223b2b8" style="cursor: pointer;" >envie para um amigo</span>
+                </div>
+                                <div class="span2 chamada" style="display:inline-block;">
+                    <a href="#" class="play" rel="15646045" name="2">
+                                                    <img src="http://storage.mais.uol.com.br/15646045-medium.jpg?ver=1" width="140" height="104" />
+                                                <img class='play' src="http://interatividades.ne10.uol.com.br/ne10/img/botao_play.png" alt="" />
+                    </a>
+                    <a href="http://interatividades.ne10.uol.com.br/ne10/videos/2015/10/16/homem-se-passa-por-funcionario-de-shopping-e-assalta-lanchonete-3540.php" class="video_descricao">
+                        Homem se passa por funcionário de shopping e assalta lanchonete                    </a>
+                    <span class="indiqueAmigo link-indique" data-i="723936ccd21eca8ea966a1db9decf125b87146ad" style="cursor: pointer;" >envie para um amigo</span>
+                </div>
+                                <div class="span2 chamada" style="display:inline-block;">
+                    <a href="#" class="play" rel="15646033" name="2">
+                                                    <img src="http://storage.mais.uol.com.br/15646033-medium.jpg?ver=1" width="140" height="104" />
+                                                <img class='play' src="http://interatividades.ne10.uol.com.br/ne10/img/botao_play.png" alt="" />
+                    </a>
+                    <a href="http://interatividades.ne10.uol.com.br/ne10/videos/2015/10/16/detento-e-baleado-e-diretor-agredido-a-pedrada-dentro-do-complexo-do-curado-3539.php" class="video_descricao">
+                        Detento é baleado e diretor agredido a pedrada dentro do Complexo do Curado                    </a>
+                    <span class="indiqueAmigo link-indique" data-i="888f0859b78ff037836aa1f4a4d92ae1d1c1b58d" style="cursor: pointer;" >envie para um amigo</span>
+                </div>
+                                <div class="span2 chamada" style="display:inline-block;">
+                    <a href="#" class="play" rel="cbpYTp9S2R8" name="1">
+                                                    <img src="http://img.youtube.com/vi/cbpYTp9S2R8/1.jpg" width="140" height="104" />
+                                                <img class='play' src="http://interatividades.ne10.uol.com.br/ne10/img/botao_play.png" alt="" />
+                    </a>
+                    <a href="http://interatividades.ne10.uol.com.br/ne10/videos/2015/10/08/qual-o-livro-da-sua-vida-3511.php" class="video_descricao">
+                        Qual o livro da sua vida?                    </a>
+                    <span class="indiqueAmigo link-indique" data-i="ba42347b3fd300dc9636788b2da5ce32ccb010d2" style="cursor: pointer;" >envie para um amigo</span>
+                </div>
+                        </div>
+    </div>
+
+    <a class="maisVideos" href="http://interatividades.ne10.uol.com.br/ne10/videos">MAIS V&Iacute;DEOS</a>
+
+    <script type="text/javascript">
+        urlTrataEnviarAmigo = "http://ne10.uol.com.br/enviarparaamigo/tratamento/trata.enviar.php";
+    </script>
+        </div>
+        
+</div><div class="posicao">
+    <div class="produtosne10">
+    <h2>SERVI&Ccedil;OS<strong>NE10</strong></h2>
+
+    <ul id="abas">
+                    <li><a href="javascript:void(0);" rel="aba01" id="aba01" class="ativa">Cursos</a></li>
+                    <li><a href="javascript:void(0);" rel="aba02" id="aba02" class="ativa">Simulados</a></li>
+                    <li><a href="javascript:void(0);" rel="aba03" id="aba03" class="ativa">Antivírus</a></li>
+                    <li><a href="javascript:void(0);" rel="aba04" id="aba04" class="ativa">Ingressos</a></li>
+                    <li><a href="javascript:void(0);" rel="aba05" id="aba05" class="ativa">Host</a></li>
+                    <li><a href="javascript:void(0);" rel="aba06" id="aba06" class="ativa">Empregos</a></li>
+            </ul>
+            <div class="aba aba01" style="display: block;">
+            <div class="linha decimal boxprodutos">
+                <h3>NE10 Cursos - Os melhores cursos on-line</h3>
+                <div class="proximo"></div>
+                <div class="anterior"></div>
+
+                <div class="sliderProdutos">
+                                                <div class="produto">
+                                <a href="http://bit.ly/1J6nYST">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/6740f2259529694d7439b398201e4294.jpg" alt="Curso de Inglês Online">
+                                    <h4>Curso de Inglês Online</h4>
+                                    <p>
+									1º mês GRÁTIS<span>R$99,90 por mês</span>
+																		<span>Inscreva-se</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://ne10cursos.notamaxima.com.br/curso-online-para-enem-e-vestibulares.html">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/3c19ae853fe50c56dc08f728f3517a55.jpg" alt="Prepare-se para o ENEM e Vestibulares">
+                                    <h4>Prepare-se para o ENEM e Vestibulares</h4>
+                                    <p>
+									Melhor conteúdo da web.<span>A partir de R$25,00</span>
+																		<span>Matricule-se</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://ne10.entende.com.br/">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/ca620c8d6e69150aad3d40e6a639b46a.jpg" alt="Cursos com Especialistas">
+                                    <h4>Cursos com Especialistas</h4>
+                                    <p>
+									Boni, Washington Olivetto, Pedro Bial, Hans Donner<span>A partir de R$9,90</span>
+																		<span>Assine Já!</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://click.afiliados.uol.com.br/Clique?source=13&type=link&idtUrl=240294&affRedir=http://clicklogger.rm.uol.com.br/%3Fprd%3D78%26oper%3D7%26grp%3Dsrc%3A15%253BModelo%20do%20Afiliado%3Alink%3BidtUrl%3A240294%26msr%3DCliques%20de%20Origem%3A1%26redir%3Dhttp%3A%2F%2Fcursosonline.uol.com.br%2Ffit%2Fonline-corte-e-costura.aspx">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/7b7bdb778ca53aa87cf65c246529cf29.jpg" alt="Curso de Corte e Costura">
+                                    <h4>Curso de Corte e Costura</h4>
+                                    <p>
+									Aprenda técnicas de corte e costura e crie roupas<span>R$54,90</span>
+																		<span>Compre Já!</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://click.afiliados.uol.com.br/Clique?source=13&type=link&idtUrl=240294&affRedir=http://clicklogger.rm.uol.com.br/%3Fprd%3D78%26oper%3D7%26grp%3Dsrc%3A15%253BModelo%20do%20Afiliado%3Alink%3BidtUrl%3A240294%26msr%3DCliques%20de%20Origem%3A1%26redir%3Dhttp%3A%2F%2Fcursosonline.uol.com.br%2Ffit%2Fonline-fotografia.aspx">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/505ac2ae864de9471efb10c9c425e266.jpg" alt="Curso de Fotografia">
+                                    <h4>Curso de Fotografia</h4>
+                                    <p>
+									Conheça os recursos da câmera fotográfica<span>R$109,90</span>
+																		<span>Compre Já!</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://click.afiliados.uol.com.br/Clique?source=13&type=link&idtUrl=240294&affRedir=http://clicklogger.rm.uol.com.br/%3Fprd%3D78%26oper%3D7%26grp%3Dsrc%3A15%253BModelo%20do%20Afiliado%3Alink%3BidtUrl%3A240294%26msr%3DCliques%20de%20Origem%3A1%26redir%3Dhttp%3A%2F%2Fcursosonline.uol.com.br%2Ffit%2Fonline-design-de-interiores.aspx">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/4e424f540f34fd68e17a156cf0aec3a4.jpg" alt="Design de Interiores">
+                                    <h4>Design de Interiores</h4>
+                                    <p>
+									Conheça técnicas de design de interiores e aprovei<span>R$49,90</span>
+																		<span>Confira</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://click.afiliados.uol.com.br/Clique?source=13&type=link&idtUrl=240294&affRedir=http://clicklogger.rm.uol.com.br/%3Fprd%3D78%26oper%3D7%26grp%3Dsrc%3A15%253BModelo%20do%20Afiliado%3Alink%3BidtUrl%3A240294%26msr%3DCliques%20de%20Origem%3A1%26redir%3Dhttp%3A%2F%2Fcursosonline.uol.com.br%2Ffit%2Fonline-microsoft-office-excel-2010-basico.aspx">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/eb178ef54de9138d302b322f57a02d02.jpg" alt="Curso de Excel Básico">
+                                    <h4>Curso de Excel Básico</h4>
+                                    <p>
+									Saiba como criar planilhas, conheça as fórmulas do<span>Apenas R$ 81,90</span>
+																		<span>Compre agora</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://click.afiliados.uol.com.br/Clique?source=13&type=link&idtUrl=240294&affRedir=http://clicklogger.rm.uol.com.br/%3Fprd%3D78%26oper%3D7%26grp%3Dsrc%3A15%253BModelo%20do%20Afiliado%3Alink%3BidtUrl%3A240294%26msr%3DCliques%20de%20Origem%3A1%26redir%3Dhttp%3A%2F%2Fcursosonline.uol.com.br%2Fpro%2Fcurso%2Fdetalhe%2F112%2Fgestao-financeira">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/881fac16ceda91ab89bd7f4638d075c8.jpg" alt="Gestão Financeira">
+                                    <h4>Gestão Financeira</h4>
+                                    <p>
+									Visa com que você aprenda características dos prin<span>R$269,90</span>
+																		<span>Compre agora</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://click.afiliados.uol.com.br/Clique?source=13&type=link&idtUrl=240294&affRedir=http://clicklogger.rm.uol.com.br/%3Fprd%3D78%26oper%3D7%26grp%3Dsrc%3A15%253BModelo%20do%20Afiliado%3Alink%3BidtUrl%3A240294%26msr%3DCliques%20de%20Origem%3A1%26redir%3Dhttp%3A%2F%2Fcursosonline.uol.com.br%2Ffit%2Fonline-digitacao.aspx">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/dcae739f0a6e720ff769ee197794be1d.jpg" alt="Curso de Digitação">
+                                    <h4>Curso de Digitação</h4>
+                                    <p>
+									Saiba como digitar rápido e economize tempo<span>Apenas R$ 62,90</span>
+																		<span>Compre agora</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://click.afiliados.uol.com.br/Clique?source=13&type=link&idtUrl=240294&affRedir=http://clicklogger.rm.uol.com.br/%3Fprd%3D78%26oper%3D7%26grp%3Dsrc%3A15%253BModelo%20do%20Afiliado%3Alink%3BidtUrl%3A240294%26msr%3DCliques%20de%20Origem%3A1%26redir%3Dhttp%3A%2F%2Fcursosonline.uol.com.br%2Fpro%2Fcurso%2Fdetalhe%2F671%2Frotinas-administrativas-em-departamento-pessoal">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/b087cb7c1609342883511e2bece7b18b.jpg" alt="Rotinas em Departamento Pessoal">
+                                    <h4>Rotinas em Departamento Pessoal</h4>
+                                    <p>
+									Entenda a evolução do mercado de trabalho.<span>10 x R$26,99</span>
+																		<span>Compre agora</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://produtos.ne10.uol.com.br/ne10cursos/cursos-online-pro#topoCursos">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/bd04dbd6706daf7c0584afd6e4f70ef0.jpg" alt="Para sua Carreira">
+                                    <h4>Para sua Carreira</h4>
+                                    <p>
+									Mais de 500 cursos para você chegar mais longe<span>A partir de R$74,90 / mês</span>
+																		<span>Assine Já!</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://click.afiliados.uol.com.br/Clique?source=13&type=link&idtUrl=240294&affRedir=http://clicklogger.rm.uol.com.br/%3Fprd%3D78%26oper%3D7%26grp%3Dsrc%3A15%253BModelo%20do%20Afiliado%3Alink%3BidtUrl%3A240294%26msr%3DCliques%20de%20Origem%3A1%26redir%3Dhttp%3A%2F%2Fcursosonline.uol.com.br%2Fpro%2Fcurso%2Fdetalhe%2F3685%2Fauxiliar-fiscal">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/d532830805927a8867f1eaa572b312cc.jpg" alt="Curso de Auxiliar Fiscal">
+                                    <h4>Curso de Auxiliar Fiscal</h4>
+                                    <p>
+									Permite ao aluno o desenvolvimento da capacidade d<span>Apenas R$ 179,90</span>
+																		<span>Confira</span>
+									</p>
+                                </a>
+                            </div>
+                                            </div>
+            </div>
+
+            <ul class="linksuteis">
+                                        <li><a href="http://ne10cursos.notamaxima.com.br/" target="_blank">Enem e Vestibulares</a></li>
+                                                <li><a href="http://produtos.ne10.uol.com.br/ne10cursos/uol-concursos-publicos#topoCursos" target="_blank">Concursos Públicos</a></li>
+                                                <li><a href="http://bit.ly/1J6nYST" target="_blank">Inglês</a></li>
+                                                <li><a href="http://produtos.ne10.uol.com.br/ne10cursos/cursos-online-pro#topoCursos" target="_blank">Carreira</a></li>
+                                                <li><a href="http://produtos.ne10.uol.com.br/ne10cursos/cursos-online-fit#topoCursos" target="_blank">Dia a Dia</a></li>
+                                                <li><a href="http://ne10.entende.com.br/" target="_blank">Especialistas</a></li>
+                                    </ul>
+        </div>
+                <div class="aba aba02" style="display:none;">
+            <div class="linha decimal boxprodutos">
+                <h3>NE10 Simulados - Para testar seus conhecimentos</h3>
+                <div class="proximo"></div>
+                <div class="anterior"></div>
+
+                <div class="sliderProdutos">
+                                                <div class="produto">
+                                <a href="http://www.ne10simulados.com.br/preparatorio_para_enem">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/b2be9131da1b52cc77ed28339aa618ab.jpg" alt="Simulados preparatórios para ENEM">
+                                    <h4>Simulados preparatórios para ENEM</h4>
+                                    <p>
+									6 Módulos, 3600 questões 1612 comentários, por um<span>R$9,90</span>
+																		<span>Assine Já!</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://www.ne10simulados.com.br/direito_para_concursos_publicos">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/52e39f54f9a1c95d9155650aa6889f1e.jpg" alt="Simulados preparatório para concursos jurídicos">
+                                    <h4>Simulados preparatório para concursos jurídicos</h4>
+                                    <p>
+									16 Módulos, 4118 questões 756 comentários, por um<span>R$9,90</span>
+																		<span>Assine Já!</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://www.ne10simulados.com.br/preparatorio_para_vestibulares">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/b87ff5380ec8df1543edb202e72eee15.jpg" alt="Simulados preparatório para Vestibulares">
+                                    <h4>Simulados preparatório para Vestibulares</h4>
+                                    <p>
+									13 módulos, 7826 Questões 3470 comentários, por um<span>R$19,90</span>
+																		<span>Assine Já!</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://ne10simulados.com.br/administracao_para_concursos_publicos">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/3b203c7efc87a2753637544e28ad6a3a.jpg" alt="Simulados preparatórios para concursos de administ">
+                                    <h4>Simulados preparatórios para concursos de administ</h4>
+                                    <p>
+									10 Módulos, 858 Questões , 292 Comentários, por um<span>R$9,90</span>
+																		<span>Assine Já!</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://ne10simulados.com.br/prepatarotio_para_o_exame_da_oab">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/9bc3a05f66d461da8e5cddf22427fa08.jpg" alt="Simulados preparatório para Exame da OAB">
+                                    <h4>Simulados preparatório para Exame da OAB</h4>
+                                    <p>
+									17 módulos, 1249 questões , 862 comentários, por u<span>R$9,90</span>
+																		<span>Assine Já!</span>
+									</p>
+                                </a>
+                            </div>
+                                            </div>
+            </div>
+
+            <ul class="linksuteis">
+                                        <li><a href="http://ne10simulados.com.br/administracao_para_concursos_publicos" target="_blank">Concursos Públicos</a></li>
+                                                <li><a href="http://ne10simulados.com.br/prepatarotio_para_o_exame_da_oab" target="_blank">OAB</a></li>
+                                                <li><a href="http://ne10simulados.com.br/preparatorio_para_vestibulares" target="_blank">Vestibulares</a></li>
+                                                <li><a href="http://ne10simulados.com.br/preparatorio_para_enem" target="_blank">ENEM</a></li>
+                                    </ul>
+        </div>
+                <div class="aba aba03" style="display:none;">
+            <div class="linha decimal boxprodutos">
+                <h3>NE10 Antivírus - Proteção antivírus e hackers</h3>
+                <div class="proximo"></div>
+                <div class="anterior"></div>
+
+                <div class="sliderProdutos">
+                                                <div class="produto">
+                                <a href="http://www.ne10antivirus.com.br">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/2e3f4b0146594dbbf292996f8e81dc08.jpg" alt="Proteção de 1 dispositivo">
+                                    <h4>Proteção de 1 dispositivo</h4>
+                                    <p>
+									Instalação online imediata, com suporte telefônico<span>R$19,90 / mês</span>
+																		<span>Assina Já!</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://www.ne10antivirus.com.br">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/ab9a6f7424089bca8bf1dabb1c19cbb1.jpg" alt="Proteção de 3 dispositivos">
+                                    <h4>Proteção de 3 dispositivos</h4>
+                                    <p>
+									Instalação online imediata, com suporte telefônico<span>R$29,90 / mês</span>
+																		<span>Assina Já!</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://www.ne10antivirus.com.br">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/6f18c84273d2b1c68a9a3f15ae3bfbda.jpg" alt="Proteção de 10 dispositivos">
+                                    <h4>Proteção de 10 dispositivos</h4>
+                                    <p>
+									Instalação online imediata, com suporte telefônico<span>R$49,90</span>
+																		<span>Assina Já!</span>
+									</p>
+                                </a>
+                            </div>
+                                            </div>
+            </div>
+
+            <ul class="linksuteis">
+                                        <li><a href="" target="_blank"></a></li>
+                                    </ul>
+        </div>
+                <div class="aba aba04" style="display:none;">
+            <div class="linha decimal boxprodutos">
+                <h3>NE10 Ingressos - Compre seus ingressos online</h3>
+                <div class="proximo"></div>
+                <div class="anterior"></div>
+
+                <div class="sliderProdutos">
+                                                <div class="produto">
+                                <a href="http://vendas.ne10ingressos.com.br/zeze-di-camargo-e-luciano-em-caruaru">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/db8ad4ac80e1cccff8ffd4a109f8a81b.jpg" alt="Zezé di Camargo & Luciano">
+                                    <h4>Zezé di Camargo & Luciano</h4>
+                                    <p>
+									Dia 24 de Outubro<span>A partir de R$40,00</span>
+																		<span>Compre já</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://vendas.ne10ingressos.com.br/baile-081-em-recife">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/0f2500159dc83be24350ebe8f90ca4cd.jpg" alt="Baile 081 em Recife">
+                                    <h4>Baile 081 em Recife</h4>
+                                    <p>
+									Dia 23/10<span>R$80</span>
+																		<span>Compre já</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://vendas.ne10ingressos.com.br/baladinha-da-praia">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/e9af46966e066ce1420eeb966e3f3548.jpg" alt="Baladinha da Praia">
+                                    <h4>Baladinha da Praia</h4>
+                                    <p>
+									Dia 24/10<span>A partir de R$130</span>
+																		<span>Compre agora</span>
+									</p>
+                                </a>
+                            </div>
+                                            </div>
+            </div>
+
+            <ul class="linksuteis">
+                                        <li><a href="http://ingressos.ne10.uol.com.br/" target="_blank">NE10 Ingressos</a></li>
+                                    </ul>
+        </div>
+                <div class="aba aba05" style="display:none;">
+            <div class="linha decimal boxprodutos">
+                <h3>NE10 Host - Tudo de maneira simples e rápido.</h3>
+                <div class="proximo"></div>
+                <div class="anterior"></div>
+
+                <div class="sliderProdutos">
+                                                <div class="produto">
+                                <a href="http://www.uolhost.com.br/ne10/#hospedagem_container">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/c2297524b653cdb651591e207c61a6f1.jpg" alt="Hospedagem">
+                                    <h4>Hospedagem</h4>
+                                    <p>
+									Crie e hospede seu site<span>R$26,90</span>
+																		<span>Acesse agora</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://www.uolhost.com.br/ne10/#dominios_container">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/159ec8ac4aab2a4e3526f1db248c2c22.jpg" alt="Registro de Domínios">
+                                    <h4>Registro de Domínios</h4>
+                                    <p>
+									Garanta o endereço do seu site<span>R$39,90</span>
+																		<span>Acesse agora</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://www.uolhost.com.br/ne10/#primeiro_site_container">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/2ca76edd5e7638b5c2a9d5d968ea0531.jpg" alt="Meu primeiro site">
+                                    <h4>Meu primeiro site</h4>
+                                    <p>
+									Um construtor de sites simples e fácil.<span>R$39,90</span>
+																		<span>Acesse agora</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://www.uolhost.com.br/ne10/#email_mkt_container">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/3c1ae1643045d165a845ebf29151f0f9.jpg" alt="E-mail Marketing">
+                                    <h4>E-mail Marketing</h4>
+                                    <p>
+									Crie e-mails de forma simples e rápida.<span>R$49,90</span>
+																		<span>Acesse agora</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://www.uolhost.com.br/ne10/#cloud_container">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/c1f5cf7ab4f8afa8b1555fc44d7aca75.jpg" alt="Cloud">
+                                    <h4>Cloud</h4>
+                                    <p>
+									Servidores de alta performance com total controle.<span>R$57,90 no 1º mês</span>
+																		<span>Acesse agora</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://www.uolhost.com.br/ne10/#adwords_container">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/9f99195ec651909f5fdbe880cb1eaa81.jpg" alt="Adwords">
+                                    <h4>Adwords</h4>
+                                    <p>
+									Anuncie seu site nos links do Google<span>R$399,00</span>
+																		<span>Acesse agora</span>
+									</p>
+                                </a>
+                            </div>
+                                                        <div class="produto">
+                                <a href="http://www.uolhost.com.br/ne10/#loja_virtual_container">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/7c494994ddb850e9fbb34de09da3a4a3.jpg" alt="Loja Virtual">
+                                    <h4>Loja Virtual</h4>
+                                    <p>
+									Seja seu próprio chefe.<span>R$59,00</span>
+																		<span>Acesse agora</span>
+									</p>
+                                </a>
+                            </div>
+                                            </div>
+            </div>
+
+            <ul class="linksuteis">
+                                        <li><a href="http://www.uolhost.com.br/ne10/" target="_blank"></a></li>
+                                    </ul>
+        </div>
+                <div class="aba aba06" style="display:none;">
+            <div class="linha decimal boxprodutos">
+                <h3>7 dias grátis</h3>
+                <div class="proximo"></div>
+                <div class="anterior"></div>
+
+                <div class="sliderProdutos">
+                                                <div class="produto">
+                                <a href="http://ne10.catho.com.br/">
+                                    <img src="http://imagens2.ne10.uol.com.br/ne10/imagem/boxcomercial/46a19b8118fbfd025559f98cab9cb9e1.jpg" alt="Confira nossas oportunidades">
+                                    <h4>Confira nossas oportunidades</h4>
+                                    <p>
+									Empregos<span>7 dias grátis</span>
+																		<span>Confira</span>
+									</p>
+                                </a>
+                            </div>
+                                            </div>
+            </div>
+
+            <ul class="linksuteis">
+                                        <li><a href="http://parceiros.catho.com.br/go.phtml?origem=neh&parceiro=1055&acao=7&url6=1&url=ne10.catho.com.br" target="_blank">ne10empregos</a></li>
+                                    </ul>
+        </div>
+        </div>        
+</div>					
+                       
+						<!-- banner super inferior -->
+						<div class="posicao" id="banner-super-inferior" style="min-height: 0px; margin-bottom: 30px; padding: 0px; position: relative; height: 90px;">
+							<script language='Javascript' type='text/javascript'>
+    showBanner(6);
+</script>					   
+						</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="span3">
+
+                <!-- banners -->
+                <div class="colunaads">
+                    
+					<div class="bannerpremium">
+						<script language='Javascript' type='text/javascript'>
+    showBanner(24);
+</script>					</div>
+					<br>
+					
+                    <script language='Javascript' type='text/javascript'>
+    showBanner(48);
+</script>					
+					<div class="bannerpatrocinio">
+						<script language='Javascript' type='text/javascript'>
+    showBanner(47);
+</script>					</div>
+					
+                    <div class='ad'>
+    <!-- vitrine topo -->
+<div class="ofertas-ne10">
+	<div class="ofertas-cabecalho"><strong>Vitrine</strong> NE10</div>
+	<div class="ofertas">
+		<script type="text/javascript" language="Javascript">
+			showBanner(83); 
+		</script>
+	</div>
+</div></div>
+
+
+<div class='ad'>
+    <script language='Javascript' type='text/javascript'>
+    showBanner(45);
+</script></div>
+
+<div class='ad' id="banner-jc-premium">
+    <a href="http://jconlinedigital.ne10.uol.com.br" target="_blank">
+	<img src="http://imagens2.ne10.uol.com.br/ne10/imagem/premium.png" alt="JC Premium" title="JC Premium" />
+</a></div>
+
+<div class='ad' id="banner-jc-premium">
+    <a href="http://www.assinejc.com.br" target="_blank">
+	<img src="http://imagens2.ne10.uol.com.br/ne10/imagem/assine.png" alt="Assine JC" title="Assine JC" />
+</a></div>
+
+<div class='ad'>
+    <!-- vitrine meio -->
+<div class="ofertas-ne10">
+	<div class="ofertas-cabecalho"><strong>Vitrine</strong> NE10</div>
+	<div class="ofertas">
+		<script type="text/javascript" language="Javascript">
+			showBanner(84); 
+			showBanner(85); 
+			showBanner(86); 
+			showBanner(87); 
+			showBanner(88); 
+		</script>
+	</div>
+</div></div>
+
+<div class='ad'>
+	<script language='Javascript' type='text/javascript'>
+    showBanner(22);
+</script></div>
+
+<div class='ad'>
+    </div>
+
+                </div><!-- banners -->
+            </div>
+        </div>
+    </div>
+
+	<!-- banners floats -->	
+		<script language='Javascript' type='text/javascript'>
+    showBanner(3);
+</script>	
+	<!-- fim barra full -->	
+	
+	<!-- banners floats -->		
+		<div id='dv-floater1'>
+    <div id='floater1' style='height:auto;left:240px;position:absolute;top:360px;width:250px;z-index:999;'>
+        <script language='Javascript' type='text/javascript'>
+    showBanner(9);
+</script>    </div>
+</div>
+
+<div id='dv-floater2'>
+    <div id='floater2' style='height:auto;left:250px;position:absolute;top:250px;width:600px;z-index:999;'>
+        <script language='Javascript' type='text/javascript'>
+    showBanner(15);
+</script>    </div>
+</div>
+
+<div id='dv-floater3'>
+    <div id='floater3' style='height:auto;left:40%;position:absolute;bottom:0px;width:250px;z-index:999;'>
+        <script language='Javascript' type='text/javascript'>
+    showBanner(16);
+</script>    </div>
+</div>
+
+<div id='dv-floater4'>
+    <div id='floater4' style='height:auto;left:240px;position:absolute;top:360px;width:250px;z-index:999;'>
+        <script language='Javascript' type='text/javascript'>
+    showBanner(17);
+</script>    </div>
+</div>
+
+
+<!-- Banner Especial - FPS -->
+
+<div id="bannerVideo" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background-color: black; z-index: 999999999999; display:none;">
+
+</div>
+
+<script type="text/javascript">	
+	$('.banner-quadrado a').click(function(){				
+		var video = '<div style="width:91%;text-align:right;margin:0 auto;"><a id="fechaBannerVideo" href="#"><img src="http://imagens1.ne10.uol.com.br/ne10/imagem/imgBTfechar.png"></a></div>';
+			video+= '<div style="float:left;text-align: center;width: 100%;vertical-align: middle;height: 100%;display: table-cell;">';
+			video+= '<iframe width="90%" height="90%" src="http://www.youtube.com/embed/HJav4lpzq4Q?autoplay=1&controls=0&showinfo=0&autohide=1&loop=1" frameborder="0" allowfullscreen="true"></iframe>';
+			video+= '</div>';
+		
+		if($(this).attr('id') == '5748')				
+		{
+			console.log('entrou');
+			$("#bannerVideo").html(video).show();
+			document.getElementsByTagName('body')[0].style.overflow = 'hidden';
+			countHit(5748,3);
+			
+			$('#fechaBannerVideo').click(function(){
+				$('#bannerVideo').html('').hide();				
+				document.getElementsByTagName('body')[0].style.overflow = "auto";		
+			});					
+			
+			return false;
+		}		
+	})				
+</script>
+<!-- Banner Especial - FPS -->
+
+<!-- Banner Especial - Qualicorp -->
+<script type="text/javascript">
+		var bannerFechado = $("#flashContent").html();
+	
+	var bannerAberto = '<object height="300" width="1160" align="middle" id="cuttingedge_5695" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">'; 		
+		bannerAberto+= '<param value="http://adserver.ne10.uol.com.br/arquivos/banners/NE10_CuttingEdge_1160x330_Expandido_qualicorp.swf?clickTag=http%3A%2F%2Fadserver.ne10.uol.com.br%2FcountHit.php%3Fad%3D5695%26ac%3D2%26r%3D2135159834%26lk%3Dhttp%3A%2F%2Fbs.serving-sys.com%2FBurstingPipe%2FadServer.bs%3Fcn%3Dtf%26c%3D20%26mc%3Dclick%26pli%3D13295151%26PluID%3D0%26ord%3D%5Btimestamp%5D" name="movie">'; 		
+		bannerAberto+= '<param value="high" name="quality">';
+		bannerAberto+= '<param value="#ffffff" name="bgcolor"> ';
+		bannerAberto+= '<param value="true" name="play"> ';
+		bannerAberto+= '<param value="true" name="loop"> ';
+		bannerAberto+= '<param value="opaque" name="wmode">'; 
+		bannerAberto+= '<param value="showall" name="scale">';
+		bannerAberto+= '<param value="true" name="menu"> ';
+		bannerAberto+= '<param value="false" name="devicefont">';
+		bannerAberto+= '<param value="" name="salign"> ';
+		bannerAberto+= '<param value="always" name="allowScriptAccess">';
+		bannerAberto+= '<!--[if !IE]> -->';
+		bannerAberto+= '<object height="300" width="1160" data="http://adserver.ne10.uol.com.br/arquivos/banners/NE10_CuttingEdge_1160x330_Expandido_qualicorp.swf?clickTag=http%3A%2F%2Fadserver.ne10.uol.com.br%2FcountHit.php%3Fad%3D5695%26ac%3D2%26r%3D2135159834%26lk%3Dhttp%3A%2F%2Fbs.serving-sys.com%2FBurstingPipe%2FadServer.bs%3Fcn%3Dtf%26c%3D20%26mc%3Dclick%26pli%3D13295151%26PluID%3D0%26ord%3D%5Btimestamp%5D" type="application/x-shockwave-flash">'; 
+		bannerAberto+= '<param value="http://adserver.ne10.uol.com.br/arquivos/banners/NE10_CuttingEdge_1160x330_Expandido_qualicorp.swf?clickTag=http%3A%2F%2Fadserver.ne10.uol.com.br%2FcountHit.php%3Fad%3D5695%26ac%3D2%26r%3D2135159834%26lk%3Dhttp%3A%2F%2Fbs.serving-sys.com%2FBurstingPipe%2FadServer.bs%3Fcn%3Dtf%26c%3D20%26mc%3Dclick%26pli%3D13295151%26PluID%3D0%26ord%3D%5Btimestamp%5D" name="movie">'; 
+		bannerAberto+= '<param value="high" name="quality">';
+		bannerAberto+= '<param value="#ffffff" name="bgcolor">';
+		bannerAberto+= '<param value="true" name="play">';
+		bannerAberto+= '<param value="true" name="loop">';
+		bannerAberto+= '<param value="opaque" name="wmode">'; 
+		bannerAberto+= '<param value="showall" name="scale">'; 
+		bannerAberto+= '<param value="true" name="menu">'; 
+		bannerAberto+= '<param value="false" name="devicefont">'; 
+		bannerAberto+= '<param value="" name="salign">'; 
+		bannerAberto+= '<param value="always" name="allowScriptAccess">'; 
+		bannerAberto+= '<!--<![endif]-->';
+		bannerAberto+= '<a href="http://www.adobe.com/go/getflash">'; 
+		bannerAberto+= '<img alt="Obter Adobe Flash Player" src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"> ';
+		bannerAberto+= '</a> ';
+		bannerAberto+= '<!--[if !IE]>--> ';
+		bannerAberto+= '</object> ';
+		bannerAberto+= '<!--<![endif]--> ';
+		bannerAberto+= '</object>';
+
+	function showQualicorp(){
+		$('#flashContent').html(bannerAberto)
+						  .animate({
+							"height":'300px'	
+						  },500);
+		countHit(5695,3);
+	}
+		
+	function hideQualicorp(){				
+		$('#flashContent').html(bannerFechado)
+						  .animate({
+								"height":'60px'	
+						  },500);
+	}	
+</script>
+<!-- Banner Especial - Qualicorp -->
+
+
+
+<script type="text/javascript">
+	var nav = navigator.userAgent.toLowerCase();
+	
+	if(nav.match(/macintosh/i) || nav.match(/intel mac/i)){ 
+		<!--
+		showBanner(68);
+		//-->
+	}else{
+		<!--
+		showBanner(67);
+		//-->
+	}	
+</script>
+
+	
+	<!-- fim banner -->
+    
+    <!-- inicio rodape -->
+		<footer>
+    <div class="menurodape">
+        <div class="container">
+            <div class="row">
+                <div class="span15">
+                    <ul>
+                        <li class="home"><a href="http://ne10.uol.com.br">Home</a></li>
+                        <!-- Listar abaixo os grupos, canais, seções e destaques -->
+                                                    <li class="padrao1">
+                                <a hef="http://noticias.ne10.uol.com.br">
+                                    Notícias                                </a>
+                                <!-- sub menu -->
+                                <div class="sub">
+                                    <ul>
+                                                                                        <li>
+                                                    <a href="http://ne10.uol.com.br/ultimas.php">
+                                                        Últimas notícias                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://www.blogdejamildo.com.br/">
+                                                        Blog de Jamildo                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/brasil">
+                                                        Brasil                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://blogs.ne10.uol.com.br/casasaudavel/">
+                                                        Casa Saudável                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/cidade-viva">
+                                                        Cidade Viva                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/ciencia-e-vida">
+                                                        Ciência & vida                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/combate-a-dengue">
+                                                        Combate à dengue                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/noticias/coluna">
+                                                        Colunas                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/educacao">
+                                                        Educação                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/economia">
+                                                        Economia                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/politica/eleicoes-2014">
+                                                        Eleições 2014                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/energia">
+                                                        Energia                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/noticias/especiais">
+                                                        Especiais                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/grande-recife">
+                                                        Grande Recife                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/interior">
+                                                        Interior                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/jc-transito">
+                                                        JC Trânsito                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/mundo">
+                                                        Mundo                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://blogs.ne10.uol.com.br/mundobit/">
+                                                        MundoBit                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/nordeste">
+                                                        Nordeste                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/oportunidade">
+                                                        Oportunidade                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/parceiros">
+                                                        Parceiros                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/politica">
+                                                        Política                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/saude">
+                                                        Saúde                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/tecnologia">
+                                                        Tecnologia                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/educacao/vestibular">
+                                                        Vestibular                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/10horas">
+                                                        #10Horas                                                    </a>
+                                                </li>
+                                                                                    </ul>
+                                </div>
+                            </li>
+                                                        <li class="padrao24">
+                                <a hef="http://esportes.ne10.uol.com.br">
+                                    Esportes                                </a>
+                                <!-- sub menu -->
+                                <div class="sub">
+                                    <ul>
+                                                                                        <li>
+                                                    <a href="http://esportes.ne10.uol.com.br/automobilismo">
+                                                        Automobilismo                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://www.blogdotorcedor.com.br">
+                                                        Blog do Torcedor                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://esportes.ne10.uol.com.br/especiais">
+                                                        Especiais                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://esportes.ne10.uol.com.br/futebol">
+                                                        Futebol                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://esportes.ne10.uol.com.br/nautico">
+                                                        Náutico                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://esportes.ne10.uol.com.br/olimpiada-2016">
+                                                        Olimpíada 2016                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://esportes.ne10.uol.com.br/outros-esportes">
+                                                        Outros esportes                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://esportes.ne10.uol.com.br/pan-2015">
+                                                        Pan 2015                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://esportes.ne10.uol.com.br/parceiros">
+                                                        Parceiros                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://esportes.ne10.uol.com.br/santa-cruz">
+                                                        Santa Cruz                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://esportes.ne10.uol.com.br/sport">
+                                                        Sport                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://esportes.ne10.uol.com.br/tabela/pernambucano-2015/">
+                                                        Tabela Virtual                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://esportes.ne10.uol.com.br/tenis">
+                                                        Tênis                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://esportes.ne10.uol.com.br/volei">
+                                                        Vôlei                                                    </a>
+                                                </li>
+                                                                                    </ul>
+                                </div>
+                            </li>
+                                                        <li class="padrao6">
+                                <a hef="http://entretenimento.ne10.uol.com.br">
+                                    Entretenimento                                </a>
+                                <!-- sub menu -->
+                                <div class="sub">
+                                    <ul>
+                                                                                        <li>
+                                                    <a href="http://entretenimento.ne10.uol.com.br/celebridades">
+                                                        Celebridades                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://entretenimento.ne10.uol.com.br/cine-e-teatro">
+                                                        Cine & teatro                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/entretenimento/coluna">
+                                                        Colunas                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://entretenimento.ne10.uol.com.br/comportamento">
+                                                        Comportamento                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://entretenimento.ne10.uol.com.br/crianca">
+                                                        Criança                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://entretenimento.ne10.uol.com.br/decoracao">
+                                                        Decoração                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://noticias.ne10.uol.com.br/entretenimento/especiais">
+                                                        Especiais                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://entretenimento.ne10.uol.com.br/gastronomia">
+                                                        Gastronomia                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://blogs.ne10.uol.com.br/horadacozinha/">
+                                                        Hora da Cozinha                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://entretenimento.ne10.uol.com.br/literatura">
+                                                        Literatura                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://entretenimento.ne10.uol.com.br/moda-e-beleza">
+                                                        Moda & beleza                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://entretenimento.ne10.uol.com.br/musica">
+                                                        Música                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://entretenimento.ne10.uol.com.br/parceiros">
+                                                        Parceiros                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://entretenimento.ne10.uol.com.br/sao-joao">
+                                                        São João                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://entretenimento.ne10.uol.com.br/shows">
+                                                        Shows                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://www.social1.com.br">
+                                                        Social1                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://entretenimento.ne10.uol.com.br/televisao">
+                                                        Televisão                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://entretenimento.ne10.uol.com.br/turismo">
+                                                        Turismo                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://gastroonline.ne10.uol.com.br/roteiro/bares/">
+                                                        Bares                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://gastroonline.ne10.uol.com.br/roteiro/lanchonetes/">
+                                                        Lanchonetes                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://gastroonline.ne10.uol.com.br/roteiro/restaurantes/">
+                                                        Restaurantes                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://interatividades.ne10.uol.com.br/ne10/cinema">
+                                                        Guia de cinema                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://interatividades.ne10.uol.com.br/ne10/teatro">
+                                                        Guia de peças                                                    </a>
+                                                </li>
+                                                                                                <li>
+                                                    <a href="http://interatividades.ne10.uol.com.br/ne10/showsefestas">
+                                                        Guia de shows                                                    </a>
+                                                </li>
+                                                                                    </ul>
+                                </div>
+                            </li>
+                                                    <!-- Listar acima os grupos, canais, seções e destaques -->
+                    </ul>
+                </div>
+            </div><!--row-->
+        </div><!-- container -->
+    </div><!-- menurodape -->
+
+    <div class="menuinstitucional">
+        <div class="container">
+            <div class="row">
+                <div class="span15">
+                    <a href="http://ne10.uol.com.br/sobre">SOBRE O NE10</a> |
+                    <a href="http://produtos.ne10.uol.com.br/publicidadene10" target="_blank">ANUNCIE</a> |
+                    <a href="http://bancodetalentos.jc.com.br" target="_blank">TRABALHE CONOSCO</a> |
+                    <a href="http://ne10.uol.com.br/expediente">EXPEDIENTE</a> |                    
+                    <a href="http://jconline.ne10.uol.com.br/etica" target="_blank">&Eacute;TICA E CONDUTA</a> |
+                </div>
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- menuinstitucional -->
+
+    <div class="marcas_rodape">
+        <div class="container">
+            <div class="row">
+                <div class="span15">
+                    <ul>
+                        <li><img src="http://imagens2.ne10.uol.com.br/ne10/imagem/logo_sjcc.png" alt="SJCC" /></li>
+                        <li><a href="http://www.jcpm.com.br" target="_blank"><img src="http://imagens2.ne10.uol.com.br/ne10/imagem/logo_jcpm.png" alt="Grupo JCPM" /></a></li>
+                    </ul>
+                    <p>&copy; Copyright &copy; 1997-2015, SJCC - Sistema Jornal do Commercio de Comunica&ccedil;&atilde;o - Recife - PE - Brasil</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<input id="validate" name="validate" type="hidden" value="ok">
+<script type="text/javascript">
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-36478108-1', 'auto');
+	  ga('send', 'pageview'); 
+</script>
+
+<script language="JavaScript" type="text/javascript" src="http://me.jsuol.com.br/omtr/jconline.js"></script>
+<script language="JavaScript" type="text/javascript">
+		var s_code=uol_sc.t();if(s_code)document.write(s_code)
+</script>
+<!-- Chamada script adserver UOL body -->
+<script src="http://tm.uol.com.br/b/par/parceiros.js"></script>
+<!-- Fim Chamada script adserver UOL body -->
+
+<script type="text/javascript">
+	countHit(hitAd,1);
+</script>
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+<!-- 50 -->    
+	<!-- fim rodape -->
+	
+	  </body>
+</html>
